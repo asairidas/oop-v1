@@ -67,7 +67,7 @@ Mokinys nuskaityti_mokinio_duomenis()
     return m;
 }
 
-double skaiciuoti_galutini(Mokinys m, string pasirinkimas)
+double skaiciuoti_galutini(Mokinys &m, const string &pasirinkimas)
 {
     double vid_med = 0;
     if (pasirinkimas == "med")
