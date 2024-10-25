@@ -2,6 +2,23 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build_prod",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-O3",
+                "main.cpp",
+                "statistika.cpp",
+                "-o",
+                "main"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Generated task by GitHub Copilot"
+        },
+        {
             "label": "build",
             "type": "shell",
             "command": "g++",

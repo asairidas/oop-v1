@@ -23,14 +23,27 @@ Mokinys nuskaityti_mokinio_duomenis()
     cout << "Iveskite pavarde" << endl;
     cin >> m.pavarde;
     cout << "Ivedete pavarde " << m.pavarde << endl;
-
     string str_pazymys;
     cout << "Iveskite pazymi (arba paspauskite Enter, kad baigtumete). Jei ivesite 0, bus sugeneruotas atsitiktinis balas: ";
     cin.ignore(10, '\n'); // Ignoruojame likusią eilutę po paskutinio cin
     while (getline(cin, str_pazymys) && !str_pazymys.empty())
     {
-        int pazymys = stoi(str_pazymys);
+        int pazymys;
+        try
+        {
+            pazymys = stoi(str_pazymys);
+        }
+        catch (exception const &)
+        {
+            throw invalid_argument("kaip pazymi ivedete ne skaiciu: " + str_pazymys);
+        }
+
         // jei pazymys yra 0 tai pakeiciame ji atsitiktiniu skaiciumi is intervalo [1, 10]
+        if ((pazymys > 10) || (pazymys < 0))
+        {
+            cout << " Ivestas pazymys turi buti intervale nuo 1 iki 10 " << endl;
+            continue;
+        }
         if (pazymys == 0)
         {
             pazymys = rand() % 10 + 1;
@@ -76,6 +89,12 @@ vector<Mokinys> duomenu_nuskaitymas_is_klaviaturos()
     {
         cout << "Iveskite studentu skaiciu" << endl;
         cin >> studentu_skaicius;
+
+        if (cin.fail())
+        {
+            throw invalid_argument("studentu skaicius turejo buti skaicius, o ivedete ne skaiciu");
+        }
+
         if (studentu_skaicius <= 0)
         {
             cerr << "Studentų skaičius turi būti teigiamas sveikasis skaičius." << endl;
@@ -108,8 +127,7 @@ vector<Mokinys> duomenu_nuskaitymas_is_failo(string failo_vardas)
     ifstream ivedimo_failas(failo_vardas);
     if (!ivedimo_failas)
     {
-        cerr << "Nepavyko atidaryti failo " << failo_vardas << endl;
-        return mokiniai;
+        throw invalid_argument("Nepavyko atidaryti failo " + failo_vardas);
     }
 
     string eilute;
@@ -157,60 +175,83 @@ bool mokiniu_palygintojas(const Mokinys &kairys, const Mokinys &desinys)
 int main()
 {
     // leidziame vartotojui pasirinkti, ar duomenis ivesime is klaviaturos ar nuskaitysime is failo
-    cout << "Ar norite ivesti duomenis is klaviaturos ar nuskaityti is failo? (iveskite 'klav' arba 'failas')" << endl;
     string pasirinkimas;
-    cin >> pasirinkimas;
-    if (pasirinkimas != "klav" && pasirinkimas != "failas")
-    {
-        cerr << "Neteisingas pasirinkimas" << endl;
-        return 1;
-    }
-
-    vector<Mokinys> mokiniai;
-    if (pasirinkimas == "klav")
+    try
     {
 
-        mokiniai = duomenu_nuskaitymas_is_klaviaturos();
+        while (true)
+        {
+            try
+            {
+                cout << "Ar norite ivesti duomenis is klaviaturos ar nuskaityti is failo? (iveskite 'klav' arba 'failas')" << endl;
+
+                cin >> pasirinkimas;
+                if (pasirinkimas != "klav" && pasirinkimas != "failas")
+                {
+                    // cerr << "Neteisingas pasirinkimas" << endl;
+                    // return 1;
+                    throw invalid_argument("Neteisingas pasirinkimas: " + pasirinkimas);
+                }
+            }
+            catch (exception const &klaida)
+            {
+                cerr << klaida.what() << endl;
+                cout << "Bandykite dar karta" << endl;
+                continue;
+            }
+            break;
+        }
+
+        vector<Mokinys> mokiniai;
+        if (pasirinkimas == "klav")
+        {
+
+            mokiniai = duomenu_nuskaitymas_is_klaviaturos();
+        }
+        else
+        {
+            // nuskaitymas is failo
+            // iveskite failo varda:
+
+            cout << "Iveskite failo varda" << endl;
+            string failo_vardas;
+            cin >> failo_vardas;
+
+            mokiniai = duomenu_nuskaitymas_is_failo(failo_vardas);
+        }
+
+        cout << "Ko nori ar vidurkio ar medianos (iveskite 'vid' arba 'med')?" << endl;
+        cin >> pasirinkimas;
+        if (pasirinkimas != "vid" && pasirinkimas != "med")
+        {
+            cerr << "Neteisingas pasirinkimas" << endl;
+            return 1;
+        }
+        string skaiciavimo_budas;
+        if (pasirinkimas == "vid")
+        {
+            skaiciavimo_budas = "(vid.)";
+        }
+        else
+        {
+            skaiciavimo_budas = "(med.)";
+        }
+        cout << left << setw(15) << "Vardas" << setw(15) << "Pavarde" << left << "Galutinis" << skaiciavimo_budas << endl;
+
+        // surikiuojame mokinius pagal pavarde, tada pagal varda
+        sort(mokiniai.begin(), mokiniai.end(), mokiniu_palygintojas);
+
+        cout << "------------------------------------------" << endl;
+        for (int i = 0; i < mokiniai.size(); i++)
+        {
+            auto galutinis = skaiciuoti_galutini(mokiniai[i], pasirinkimas);
+            cout << left << setw(15) << mokiniai[i].vardas << setw(15) << mokiniai[i].pavarde << left << fixed << setprecision(2) << galutinis << endl;
+        }
+
+        return 0;
     }
-    else
+    catch (exception &klaida)
     {
-        // nuskaitymas is failo
-        // iveskite failo varda:
-
-        cout << "Iveskite failo varda" << endl;
-        string failo_vardas;
-        cin >> failo_vardas;
-
-        mokiniai = duomenu_nuskaitymas_is_failo(failo_vardas);
+        cerr << "ivyko klaida: " << klaida.what() << endl;
     }
-
-    cout << "Ko nori ar vidurkio ar medianos (iveskite 'vid' arba 'med')?" << endl;
-    cin >> pasirinkimas;
-    if (pasirinkimas != "vid" && pasirinkimas != "med")
-    {
-        cerr << "Neteisingas pasirinkimas" << endl;
-        return 1;
-    }
-    string skaiciavimo_budas;
-    if (pasirinkimas == "vid")
-    {
-        skaiciavimo_budas = "(vid.)";
-    }
-    else
-    {
-        skaiciavimo_budas = "(med.)";
-    }
-    cout << left << setw(15) << "Vardas" << setw(15) << "Pavarde" << left << "Galutinis" << skaiciavimo_budas << endl;
-
-    // surikiuojame mokinius pagal pavarde, tada pagal varda
-    sort(mokiniai.begin(), mokiniai.end(), mokiniu_palygintojas);
-
-    cout << "------------------------------------------" << endl;
-    for (int i = 0; i < mokiniai.size(); i++)
-    {
-        auto galutinis = skaiciuoti_galutini(mokiniai[i], pasirinkimas);
-        cout << left << setw(15) << mokiniai[i].vardas << setw(15) << mokiniai[i].pavarde << left << fixed << setprecision(2) << galutinis << endl;
-    }
-
-    return 0;
 }
