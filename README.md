@@ -82,3 +82,12 @@ Kietas Diskas: SSD
 | 10000000         | 1                | 15693.7                 | 41786.1         | 1021.66                             | 3468.51                      | 12397.8                       | 17020                        | 91387.7          |
 | 10000000         | 2                | duomenu nera            | duomenu nera    | duomenu nera                         | duomenu nera                  | duomenu nera                   | duomenu nera                  | duomenu nera      |
 | 10000000         | 3                | 15698.5                 | 41772.2         | 961.357                             | 2648.32                      | 12228.7                       | 17312.7                      | 90621.8          |
+
+
+## Diagramos
+
+### Vektoriaus diagrama
+![Vector Performance](paveiksliukai/performance_with_vector.png)
+
+### Saraso diagrama
+![List Performance](paveiksliukai/performance_with_list.png)
