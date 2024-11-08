@@ -234,8 +234,42 @@ void rikiuok<list<Mokinys>>(list<Mokinys> &mokiniai)
 }
 
 template <class K>
-void eksperimentas(int eiluciu_kiekis)
+void skirstyk_studentus(K &studentai, K &vargsiukai)
 {
+    for (auto iter = studentai.begin(); iter != studentai.end();)
+    {
+        if ((*iter).galutinis < 5.0)
+        {
+            vargsiukai.push_back(*iter);
+            iter = studentai.erase(iter);
+        }
+        else
+        {
+            ++iter;
+        }
+    };
+}
+
+template <class K>
+void padalink_studentus(K &studentai, K &vargsiukai)
+{
+    auto ar_silpnas_mokinys = [&vargsiukai](const Mokinys &m)
+    {
+        if (m.galutinis < 5.0)
+        {
+            vargsiukai.push_back(m);
+            return true;
+        }
+        return false;
+    };
+    auto iterator = remove_if(studentai.begin(), studentai.end(), ar_silpnas_mokinys);
+    studentai.erase(iterator, studentai.end());
+}
+
+template <class K>
+void eksperimentas(int eiluciu_kiekis, int rikiavimo_metodas)
+{
+
     failu_generavimas(eiluciu_kiekis);
     K mokiniai;
 
@@ -270,17 +304,32 @@ void eksperimentas(int eiluciu_kiekis)
     K silpni_moksluose;
 
     auto pradzia_atskyrimas = chrono::high_resolution_clock::now();
-    for (auto mokinys : mokiniai)
+
+    if (rikiavimo_metodas == 1)
     {
-        if (mokinys.galutinis >= 5)
+        for (auto mokinys : mokiniai)
         {
-            protingi.push_back(mokinys);
-        }
-        else
-        {
-            silpni_moksluose.push_back(mokinys);
+            if (mokinys.galutinis >= 5)
+            {
+                protingi.push_back(mokinys);
+            }
+            else
+            {
+                silpni_moksluose.push_back(mokinys);
+            }
         }
     }
+    else if (rikiavimo_metodas == 3)
+    {
+        padalink_studentus(mokiniai, silpni_moksluose);
+        protingi = mokiniai;
+    }
+    else if (rikiavimo_metodas == 2)
+    {
+        skirstyk_studentus(mokiniai, silpni_moksluose);
+        protingi = mokiniai;
+    }
+
     auto pabaiga_atskyrimas = chrono::high_resolution_clock::now();
     chrono::duration<double, milli>
         atskyrimas_trukme = pabaiga_atskyrimas - pradzia_atskyrimas;
@@ -298,7 +347,7 @@ void eksperimentas(int eiluciu_kiekis)
     auto pabaiga_bendras = chrono::high_resolution_clock::now();
     chrono::duration<double, milli> bendras_trukme = pabaiga_bendras - pradzia_bendras;
 
-    cout << "---------[ Programos greicio analize - " << eiluciu_kiekis << " eiluciu ]---------" << endl
+    cout << "---------[ Programos greicio analize - " << eiluciu_kiekis << " eiluciu, dalinimo metodas: " << rikiavimo_metodas << " ]---------" << endl
          << endl;
     cout << "failo nuskaitymas uztruko: " << nuskaitymo_trukme.count() << " ms" << endl;
     cout << "rikiavimas uztruko: " << rikiavimo_trukme.count() << " ms" << endl;
@@ -315,19 +364,29 @@ void eksperimentas(int eiluciu_kiekis)
 int main()
 {
 
-    // vector<int> eksperimentai{1000, 10000, 100000};
     vector<int> eksperimentai{1000, 10000, 100000, 1000000, 10000000};
-    // negeneruosiu 1000000 ir 10000000 eiluciu failu, nes programa veiks labai letai uzluzti
 
     cout << "Greicio eksperimentai naudojant vector" << endl;
     for (int eksperimento_dydis : eksperimentai)
     {
-        eksperimentas<vector<Mokinys>>(eksperimento_dydis);
+        eksperimentas<vector<Mokinys>>(eksperimento_dydis, 1);
+        // antrasis metodas yra super letas todel jo neleidziame, kai eiluciu daugiau nei 1000000
+        if (eksperimento_dydis < 1000000)
+        {
+            eksperimentas<vector<Mokinys>>(eksperimento_dydis, 2);
+        }
+
+        eksperimentas<vector<Mokinys>>(eksperimento_dydis, 3);
     }
 
     cout << "Greicio eksperimentai naudojant list" << endl;
     for (int eksperimento_dydis : eksperimentai)
     {
-        eksperimentas<list<Mokinys>>(eksperimento_dydis);
+        eksperimentas<vector<Mokinys>>(eksperimento_dydis, 1);
+        if (eksperimento_dydis < 1000000)
+        {
+            eksperimentas<vector<Mokinys>>(eksperimento_dydis, 2);
+        }
+        eksperimentas<vector<Mokinys>>(eksperimento_dydis, 3);
     }
 }
