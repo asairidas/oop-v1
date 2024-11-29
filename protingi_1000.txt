@@ -1,594 +1,576 @@
-Vardas Pavarde ND1 ND2 ND3 ND4 ND5 ND6 ND7 ND8 ND9 ND10 ND11 ND12 ND13 ND14 ND15 Egz.
-vardas0 pavarde0 4 7 8 6 4 6 7 3 10 2 3 8 1 10 4 7
-vardas101 pavarde101 3 2 1 9 10 1 2 4 5 9 6 9 3 3 1 7
-vardas104 pavarde104 10 8 6 5 5 10 7 8 3 2 1 2 4 8 8 7
-vardas105 pavarde105 4 10 2 1 5 2 2 9 7 5 4 5 8 8 1 8
-vardas11 pavarde11 8 6 10 7 3 2 8 9 6 8 5 2 9 6 10 8
-vardas111 pavarde111 3 10 6 8 5 7 5 10 2 3 4 2 9 2 4 9
-vardas113 pavarde113 5 8 10 9 6 5 8 9 7 1 1 7 5 4 8 6
-vardas115 pavarde115 10 9 2 7 5 9 6 1 2 6 10 8 1 7 3 9
-vardas116 pavarde116 10 6 1 3 8 3 9 2 8 8 10 8 10 9 9 10
-vardas118 pavarde118 1 1 5 8 6 4 2 5 3 1 2 4 1 1 5 9
-vardas119 pavarde119 3 3 1 3 5 6 9 5 1 9 5 3 6 5 3 8
-vardas120 pavarde120 6 8 6 3 3 9 7 7 1 1 10 2 3 7 10 5
-vardas122 pavarde122 4 10 7 6 8 5 4 10 5 5 1 7 1 3 3 9
-vardas123 pavarde123 5 4 2 2 2 10 1 1 1 3 6 8 7 10 2 10
-vardas125 pavarde125 7 8 7 10 8 7 1 10 1 8 7 7 9 8 8 7
-vardas13 pavarde13 5 9 9 9 10 8 8 7 5 4 1 4 1 10 3 6
-vardas130 pavarde130 9 10 10 9 10 4 7 4 7 1 5 5 10 7 7 5
-vardas131 pavarde131 2 10 9 1 5 10 1 6 6 1 2 7 1 3 9 9
-vardas132 pavarde132 5 10 9 4 5 5 10 2 8 6 8 7 3 5 3 6
-vardas133 pavarde133 6 1 6 3 10 8 8 7 9 2 3 1 4 3 9 8
-vardas137 pavarde137 5 8 5 8 2 5 1 5 9 4 4 5 7 2 6 6
-vardas138 pavarde138 5 7 7 10 7 8 6 7 5 4 1 1 3 6 4 9
-vardas139 pavarde139 6 1 6 7 7 8 4 5 1 9 1 9 2 6 4 6
-vardas141 pavarde141 3 5 10 1 2 5 5 4 3 6 2 4 3 7 1 7
-vardas142 pavarde142 10 7 9 1 9 7 8 6 5 5 7 1 6 6 4 10
-vardas143 pavarde143 2 6 1 5 10 7 8 5 4 1 10 7 7 1 5 6
-vardas144 pavarde144 9 3 9 7 9 6 4 5 1 2 8 8 9 1 9 10
-vardas145 pavarde145 8 9 4 10 8 3 6 1 3 5 9 1 7 3 7 6
-vardas146 pavarde146 7 7 4 5 2 8 2 4 1 9 3 10 1 2 1 9
-vardas149 pavarde149 5 6 3 6 10 4 9 9 5 4 6 1 6 10 4 5
-vardas15 pavarde15 3 9 10 4 7 9 1 3 2 1 6 2 2 1 9 6
-vardas151 pavarde151 5 5 9 5 10 9 5 5 2 10 7 9 1 10 4 7
-vardas153 pavarde153 10 10 8 10 8 4 6 1 5 2 10 5 2 5 4 7
-vardas154 pavarde154 5 3 3 8 7 2 9 6 2 2 4 1 7 5 5 8
-vardas155 pavarde155 6 4 9 3 8 4 6 4 8 5 9 1 1 2 7 5
-vardas156 pavarde156 6 9 4 2 3 3 10 6 6 5 7 4 2 3 1 7
-vardas157 pavarde157 6 2 10 5 5 7 9 2 1 9 2 3 10 9 9 7
-vardas158 pavarde158 9 3 1 3 5 10 9 2 6 7 5 7 9 7 4 6
-vardas159 pavarde159 8 5 3 5 1 3 8 3 1 2 7 2 10 5 10 10
-vardas16 pavarde16 1 7 5 7 3 6 9 7 3 9 5 8 3 5 1 7
-vardas160 pavarde160 7 10 5 3 1 3 4 7 9 10 3 9 7 8 4 6
-vardas161 pavarde161 4 6 10 6 10 8 10 10 1 6 3 2 1 3 1 7
-vardas162 pavarde162 4 7 10 5 9 5 1 9 5 5 9 3 5 3 8 8
-vardas164 pavarde164 9 8 7 9 5 9 10 9 4 8 1 8 2 10 7 4
-vardas165 pavarde165 1 2 5 9 7 7 7 7 2 8 9 3 10 7 6 10
-vardas167 pavarde167 5 7 1 3 4 10 9 7 9 7 10 8 3 7 9 9
-vardas168 pavarde168 10 9 9 2 7 9 1 5 9 5 5 3 10 7 5 6
-vardas171 pavarde171 3 7 1 8 4 8 2 9 5 8 7 9 10 7 4 10
-vardas172 pavarde172 7 10 8 6 7 1 6 3 8 7 7 4 3 5 4 7
-vardas173 pavarde173 1 5 4 7 4 8 5 10 5 3 10 4 9 3 5 6
-vardas174 pavarde174 5 4 3 3 5 8 5 2 7 2 7 9 8 1 5 10
-vardas177 pavarde177 4 5 5 3 5 7 5 10 9 5 3 6 8 3 8 5
-vardas179 pavarde179 4 6 5 9 2 1 8 3 5 10 10 3 4 7 7 8
-vardas180 pavarde180 8 5 7 10 7 1 10 10 6 2 8 4 1 9 6 5
-vardas184 pavarde184 1 2 1 8 10 1 8 7 10 4 4 7 5 10 9 5
-vardas185 pavarde185 7 10 10 8 9 1 2 5 4 6 10 5 4 9 6 6
-vardas186 pavarde186 3 9 4 2 9 3 8 1 6 3 7 2 2 8 9 9
-vardas188 pavarde188 3 4 4 3 8 3 5 6 5 2 7 9 1 5 9 9
-vardas19 pavarde19 7 8 6 7 10 9 8 3 9 3 10 10 7 1 3 8
-vardas193 pavarde193 7 1 10 1 8 1 3 1 1 1 5 1 9 2 2 10
-vardas194 pavarde194 10 4 10 10 2 3 7 5 8 10 4 3 9 8 6 7
-vardas195 pavarde195 1 5 7 10 7 9 10 7 9 6 10 9 8 1 8 9
-vardas196 pavarde196 6 9 8 9 1 6 3 9 6 8 3 6 8 10 2 8
-vardas197 pavarde197 4 10 7 10 10 9 8 8 4 7 6 3 9 5 1 7
-vardas199 pavarde199 10 2 4 9 2 4 8 7 2 5 10 3 1 2 9 7
-vardas2 pavarde2 3 9 10 8 4 7 2 3 10 4 2 10 5 8 9 5
-vardas20 pavarde20 7 2 4 3 2 6 10 10 2 5 10 2 1 8 6 9
-vardas202 pavarde202 1 8 5 8 7 9 2 9 10 4 8 3 8 1 7 5
-vardas203 pavarde203 8 1 3 10 2 7 4 9 3 9 6 10 3 1 4 5
-vardas205 pavarde205 9 2 1 10 8 4 10 2 3 7 3 7 7 6 1 6
-vardas206 pavarde206 5 4 2 10 9 8 8 7 9 8 4 3 6 5 4 6
-vardas208 pavarde208 5 1 3 6 9 1 2 7 10 8 1 6 2 4 3 10
-vardas211 pavarde211 10 6 5 7 3 8 7 8 2 8 2 9 7 9 1 8
-vardas212 pavarde212 9 7 7 10 7 2 9 6 10 7 7 2 8 6 6 7
-vardas213 pavarde213 4 1 3 6 10 9 3 4 9 7 2 7 7 2 4 5
-vardas216 pavarde216 2 8 3 7 4 7 1 9 9 8 1 9 10 10 9 5
-vardas217 pavarde217 3 7 9 8 9 6 10 9 4 7 5 8 2 6 10 5
-vardas22 pavarde22 6 6 3 10 1 3 9 4 9 1 5 1 10 2 10 7
-vardas221 pavarde221 9 8 2 7 2 10 2 3 2 5 7 1 8 4 7 6
-vardas222 pavarde222 3 3 5 4 10 7 5 7 8 5 7 3 10 10 7 8
-vardas225 pavarde225 5 2 5 3 1 2 1 4 5 1 5 1 7 3 3 8
-vardas226 pavarde226 3 8 6 2 10 1 1 7 3 1 3 5 10 10 10 6
-vardas227 pavarde227 1 4 8 1 5 10 5 9 10 1 1 9 3 3 6 7
-vardas23 pavarde23 3 6 5 5 10 10 4 7 1 6 1 3 10 5 4 6
-vardas230 pavarde230 4 3 5 9 3 4 9 6 8 3 9 9 8 8 4 6
-vardas231 pavarde231 4 10 1 9 2 7 6 6 3 3 2 3 6 7 6 9
-vardas233 pavarde233 7 7 2 9 3 9 6 5 4 10 7 9 6 2 9 6
-vardas235 pavarde235 8 7 4 10 7 10 6 10 9 2 8 6 4 9 1 8
-vardas236 pavarde236 8 4 5 7 6 6 6 9 10 4 10 7 7 5 2 6
-vardas238 pavarde238 9 2 8 7 9 3 5 8 8 4 4 4 8 8 9 10
-vardas239 pavarde239 7 5 7 5 6 5 3 1 10 8 8 6 5 5 7 6
-vardas24 pavarde24 2 8 5 4 2 5 7 10 5 3 3 7 5 2 3 9
-vardas243 pavarde243 6 9 7 8 2 10 1 3 4 10 9 1 4 2 6 8
-vardas245 pavarde245 2 10 10 3 1 1 8 4 10 8 7 5 10 4 4 9
-vardas246 pavarde246 1 4 8 2 6 2 3 3 2 4 3 8 5 6 10 7
-vardas248 pavarde248 6 3 5 4 6 8 6 7 3 8 6 8 5 6 4 9
-vardas249 pavarde249 7 4 5 8 2 4 10 9 2 8 5 3 10 9 6 6
-vardas25 pavarde25 9 10 3 9 9 9 7 9 4 9 4 4 4 9 1 5
-vardas251 pavarde251 10 3 4 3 8 3 3 9 3 7 3 2 7 1 9 10
-vardas252 pavarde252 3 9 9 6 6 5 9 10 9 10 8 7 5 6 4 6
-vardas253 pavarde253 8 7 10 6 2 2 6 6 10 1 7 7 3 8 8 7
-vardas254 pavarde254 8 6 2 4 3 10 3 1 1 1 9 8 6 2 5 6
-vardas256 pavarde256 8 9 7 2 1 9 4 1 1 3 10 7 6 5 4 8
-vardas257 pavarde257 1 6 1 8 3 9 5 3 6 8 4 9 10 2 2 10
-vardas258 pavarde258 10 8 1 10 7 7 3 9 9 2 7 6 8 10 4 8
-vardas259 pavarde259 5 6 6 8 5 10 2 10 10 5 10 1 6 2 2 8
-vardas260 pavarde260 9 3 9 7 9 1 6 9 5 2 6 2 2 1 10 6
-vardas262 pavarde262 5 6 1 3 8 6 3 4 10 1 8 1 1 7 8 9
-vardas263 pavarde263 5 5 1 2 10 2 9 2 5 10 2 8 10 8 2 5
-vardas264 pavarde264 5 3 9 5 10 4 10 9 4 7 1 6 5 1 5 9
-vardas265 pavarde265 5 5 1 4 9 1 8 5 10 9 4 9 8 6 5 5
-vardas266 pavarde266 10 4 9 9 9 8 10 2 7 10 9 1 10 3 10 4
-vardas27 pavarde27 7 6 3 7 6 9 8 10 7 1 5 2 1 5 9 8
-vardas270 pavarde270 9 3 1 6 5 2 1 1 3 6 4 7 3 4 10 8
-vardas271 pavarde271 6 2 5 3 9 3 9 3 10 10 10 2 10 9 6 8
-vardas272 pavarde272 4 6 5 10 9 5 10 4 3 5 10 5 9 10 4 4
-vardas273 pavarde273 3 10 8 4 3 6 6 4 7 5 8 7 5 3 4 8
-vardas274 pavarde274 1 1 8 1 7 7 4 9 2 4 5 2 5 9 7 9
-vardas275 pavarde275 8 6 2 10 4 9 4 10 5 3 6 10 5 2 9 5
-vardas277 pavarde277 4 2 2 7 3 7 7 7 9 4 8 6 5 7 2 8
-vardas278 pavarde278 4 9 10 10 10 10 9 7 4 9 9 7 7 9 9 3
-vardas279 pavarde279 2 2 9 4 9 7 1 9 1 8 4 7 6 6 7 10
-vardas28 pavarde28 1 9 7 3 5 8 10 4 10 3 9 4 1 2 8 9
-vardas281 pavarde281 8 9 7 6 6 9 4 6 8 10 2 4 5 8 5 10
-vardas282 pavarde282 5 5 7 9 6 10 9 6 3 4 2 2 10 2 4 7
-vardas283 pavarde283 10 2 4 5 10 9 2 8 10 4 1 4 3 7 6 10
-vardas284 pavarde284 3 4 8 9 5 8 4 7 4 7 10 3 8 3 1 9
-vardas285 pavarde285 5 6 4 6 6 5 3 6 10 5 1 5 1 6 4 6
-vardas287 pavarde287 7 5 6 2 2 1 7 3 7 8 7 10 5 2 5 6
-vardas288 pavarde288 7 8 2 7 6 5 2 10 8 1 1 2 2 2 4 8
-vardas289 pavarde289 7 2 9 8 4 8 2 10 5 1 9 1 2 5 8 8
-vardas29 pavarde29 10 2 6 5 10 3 6 8 5 10 10 5 6 10 4 6
-vardas290 pavarde290 4 10 6 9 6 9 8 3 9 10 7 10 2 2 9 10
-vardas291 pavarde291 5 8 9 8 5 10 10 1 10 10 1 4 5 9 3 8
-vardas292 pavarde292 10 1 7 7 9 6 1 10 8 7 1 9 1 10 10 5
-vardas293 pavarde293 9 8 3 5 9 2 5 9 1 7 4 7 7 6 5 8
-vardas294 pavarde294 8 3 6 7 10 7 8 7 5 8 5 5 7 4 10 7
-vardas295 pavarde295 3 4 1 2 7 7 2 9 6 5 6 2 2 2 2 10
-vardas296 pavarde296 4 7 8 3 5 5 2 10 2 6 6 1 2 7 7 6
-vardas299 pavarde299 7 2 1 2 1 9 3 7 4 7 6 10 4 4 1 7
-vardas3 pavarde3 6 1 4 7 2 1 7 4 3 1 7 2 6 6 5 8
-vardas301 pavarde301 7 6 5 10 4 9 6 9 7 1 8 10 6 8 7 4
-vardas305 pavarde305 10 1 1 6 7 1 7 5 6 8 8 3 8 4 3 9
-vardas306 pavarde306 6 10 2 4 2 5 3 10 1 10 2 8 5 3 8 6
-vardas307 pavarde307 6 8 2 4 8 8 9 6 7 6 8 5 2 3 5 7
-vardas308 pavarde308 2 9 2 6 3 6 5 6 6 8 3 10 3 10 6 8
-vardas31 pavarde31 2 10 7 3 2 3 1 8 4 2 2 10 1 6 7 8
-vardas310 pavarde310 3 10 6 8 5 3 3 2 10 7 2 2 8 9 1 7
-vardas311 pavarde311 7 4 8 2 4 3 8 2 10 8 1 7 3 7 8 7
-vardas313 pavarde313 8 7 6 3 2 6 5 1 3 5 8 5 3 7 4 10
-vardas315 pavarde315 9 6 5 10 1 1 3 4 7 10 10 2 8 3 1 10
-vardas317 pavarde317 10 9 4 10 1 6 3 7 7 5 8 4 7 1 5 10
-vardas318 pavarde318 6 4 9 2 1 8 3 9 9 9 10 2 4 4 5 5
-vardas319 pavarde319 2 10 5 4 5 9 10 3 3 10 8 2 10 3 3 7
-vardas32 pavarde32 8 5 1 7 5 8 5 9 6 9 3 7 1 7 7 5
-vardas321 pavarde321 8 7 7 4 7 6 7 10 7 6 3 8 8 5 7 5
-vardas322 pavarde322 8 4 3 8 8 1 8 10 6 1 8 6 9 10 9 8
-vardas323 pavarde323 6 5 3 2 2 1 3 1 7 7 8 6 2 6 1 9
-vardas324 pavarde324 10 5 9 9 5 6 9 2 7 8 9 7 7 9 6 4
-vardas325 pavarde325 5 8 7 8 9 10 8 5 8 8 2 9 3 2 10 4
-vardas326 pavarde326 8 8 3 4 5 3 5 1 2 5 9 8 3 4 3 7
-vardas327 pavarde327 2 9 5 2 10 2 8 8 1 9 8 4 3 9 9 10
-vardas33 pavarde33 7 3 9 10 7 1 8 1 2 1 2 4 8 8 3 7
-vardas331 pavarde331 5 8 4 10 9 2 7 1 7 7 3 2 7 9 5 10
-vardas332 pavarde332 7 10 8 7 10 3 5 2 2 10 5 8 3 10 3 8
-vardas334 pavarde334 1 10 9 10 2 4 4 5 5 10 5 9 1 7 8 9
-vardas335 pavarde335 5 6 10 4 10 9 1 2 4 10 5 8 3 7 10 5
-vardas34 pavarde34 5 6 3 1 3 10 1 10 10 5 6 2 1 4 8 9
-vardas342 pavarde342 4 5 2 9 8 4 9 9 7 1 5 7 7 4 2 5
-vardas343 pavarde343 6 4 3 10 7 1 8 8 3 9 7 8 4 1 1 9
-vardas344 pavarde344 8 2 8 5 5 6 5 3 9 10 1 5 5 3 9 10
-vardas347 pavarde347 5 1 6 9 1 1 8 1 2 4 8 5 10 1 8 9
-vardas349 pavarde349 1 9 2 3 9 9 5 10 2 2 7 3 4 6 2 7
-vardas35 pavarde35 9 7 1 5 7 8 7 1 10 8 6 10 8 9 6 4
-vardas350 pavarde350 4 6 10 5 1 3 9 5 6 2 4 3 4 7 4 6
-vardas352 pavarde352 1 8 8 1 1 7 8 8 10 3 3 5 10 8 10 5
-vardas353 pavarde353 5 9 8 3 2 3 2 6 6 5 5 6 10 1 9 10
-vardas355 pavarde355 9 4 6 10 9 7 5 6 4 1 4 3 2 4 4 10
-vardas357 pavarde357 4 7 3 2 5 9 10 8 10 3 10 3 8 5 2 10
-vardas36 pavarde36 4 9 4 8 10 4 8 9 8 5 2 10 1 10 9 9
-vardas360 pavarde360 9 4 2 2 7 2 4 3 2 6 5 2 8 1 5 8
-vardas361 pavarde361 1 2 4 9 10 6 9 10 2 10 8 4 7 6 7 5
-vardas365 pavarde365 4 1 8 9 5 5 5 10 9 6 2 8 3 8 10 7
-vardas366 pavarde366 1 9 3 4 10 2 2 3 9 6 4 6 3 10 10 8
-vardas367 pavarde367 10 9 6 6 3 2 5 3 7 8 10 9 7 2 7 8
-vardas369 pavarde369 9 1 6 1 2 2 3 9 2 4 9 8 7 8 5 8
-vardas37 pavarde37 6 9 5 4 8 2 4 9 1 10 8 10 10 4 3 5
-vardas377 pavarde377 1 9 6 7 7 3 3 1 4 4 8 8 1 2 2 8
-vardas379 pavarde379 2 5 10 8 7 3 8 3 8 8 10 10 9 2 7 10
-vardas382 pavarde382 1 2 1 7 5 4 1 9 2 1 2 2 9 10 4 9
-vardas385 pavarde385 1 7 3 2 4 9 9 3 4 2 3 6 8 6 9 8
-vardas387 pavarde387 10 8 7 5 7 7 7 2 10 9 7 9 4 7 7 8
-vardas389 pavarde389 9 8 8 7 6 6 8 5 4 7 4 10 3 10 7 9
-vardas391 pavarde391 1 10 8 6 5 8 10 1 6 3 10 10 4 8 8 5
-vardas392 pavarde392 5 2 7 5 2 1 4 4 2 6 8 5 9 7 6 9
-vardas393 pavarde393 6 5 4 3 2 6 3 7 8 2 9 4 1 6 8 7
-vardas394 pavarde394 10 6 1 1 6 7 4 8 4 3 2 3 10 9 3 7
-vardas395 pavarde395 3 9 9 5 4 1 3 3 4 3 6 6 9 6 5 8
-vardas397 pavarde397 1 6 7 4 9 2 7 4 4 2 2 2 9 6 1 10
-vardas399 pavarde399 6 8 1 4 9 7 10 2 1 1 6 9 6 8 10 7
-vardas40 pavarde40 9 1 9 2 1 3 3 10 8 6 7 5 7 4 8 10
-vardas400 pavarde400 10 7 3 9 9 5 4 3 7 9 3 2 9 4 7 6
-vardas401 pavarde401 1 9 2 9 6 1 2 8 1 7 8 8 7 8 6 6
-vardas402 pavarde402 4 9 7 5 3 10 7 10 10 10 3 10 3 1 5 5
-vardas403 pavarde403 9 6 5 6 8 6 3 8 5 3 7 1 10 3 8 5
-vardas404 pavarde404 1 4 9 5 5 8 6 4 9 8 3 3 8 10 7 7
-vardas406 pavarde406 7 5 9 2 2 7 7 10 4 2 4 4 1 10 2 7
-vardas41 pavarde41 8 5 10 2 8 1 7 1 9 6 4 10 5 2 6 5
-vardas413 pavarde413 5 4 9 7 2 10 9 10 1 9 1 6 1 6 1 9
-vardas415 pavarde415 4 3 8 7 2 8 6 2 6 6 8 9 2 8 9 10
-vardas416 pavarde416 2 4 10 3 9 3 1 7 6 7 9 1 6 3 2 9
-vardas417 pavarde417 5 1 5 7 8 3 8 3 8 7 3 1 6 1 2 9
-vardas418 pavarde418 7 4 2 5 6 2 3 1 8 3 3 5 5 6 4 10
-vardas42 pavarde42 2 6 6 5 10 9 4 9 6 3 3 3 8 1 4 5
-vardas422 pavarde422 1 7 8 4 8 6 4 9 9 9 6 7 10 5 10 9
-vardas423 pavarde423 10 8 4 2 5 9 7 4 10 3 4 4 5 7 8 8
-vardas424 pavarde424 5 8 1 2 5 5 10 3 5 8 9 4 4 1 5 5
-vardas425 pavarde425 10 8 7 5 8 5 8 8 7 3 3 4 1 1 1 6
-vardas426 pavarde426 8 1 7 2 7 9 7 1 8 7 7 1 9 1 5 9
-vardas427 pavarde427 10 3 5 9 8 4 6 6 8 1 9 9 3 1 4 10
-vardas428 pavarde428 4 2 3 10 10 1 1 7 10 7 9 8 9 4 6 8
-vardas429 pavarde429 8 2 6 7 5 4 3 3 6 3 1 8 6 6 9 9
-vardas430 pavarde430 7 3 8 9 4 10 7 3 8 6 2 6 1 8 5 8
-vardas433 pavarde433 1 8 9 8 8 8 2 1 9 5 8 5 4 6 10 7
-vardas437 pavarde437 7 2 6 3 4 1 8 10 6 7 1 5 7 1 7 10
-vardas44 pavarde44 5 8 7 6 8 2 4 4 4 9 6 2 1 9 8 7
-vardas440 pavarde440 1 4 1 7 4 7 6 7 3 10 7 9 6 7 1 5
-vardas443 pavarde443 6 3 4 8 7 4 9 4 3 1 10 5 10 8 8 6
-vardas444 pavarde444 5 7 3 3 3 10 2 9 3 2 9 2 2 6 6 9
-vardas445 pavarde445 9 9 6 5 3 7 1 7 7 2 1 8 9 8 3 6
-vardas448 pavarde448 8 7 9 3 8 7 10 1 5 9 4 7 5 7 1 9
-vardas449 pavarde449 7 10 8 4 2 4 6 4 9 6 7 4 7 6 4 5
-vardas452 pavarde452 5 2 4 6 10 7 4 6 6 8 8 2 2 1 5 10
-vardas453 pavarde453 2 3 9 5 7 1 1 5 2 7 4 10 1 7 2 7
-vardas454 pavarde454 9 7 5 10 5 8 8 10 5 7 4 8 7 10 9 9
-vardas455 pavarde455 3 7 5 9 8 5 5 1 4 1 2 6 7 5 2 7
-vardas457 pavarde457 8 5 5 7 2 2 7 7 2 10 2 10 4 5 7 6
-vardas459 pavarde459 8 9 9 1 2 5 7 3 6 10 2 9 4 10 6 8
-vardas460 pavarde460 6 10 7 7 3 10 10 8 5 2 7 8 7 10 3 6
-vardas462 pavarde462 10 4 2 5 3 1 2 7 5 10 6 1 9 8 6 9
-vardas463 pavarde463 9 3 9 8 6 2 10 10 10 5 7 7 6 2 10 5
-vardas465 pavarde465 9 8 9 6 1 9 5 10 3 2 7 8 3 8 5 10
-vardas466 pavarde466 1 5 8 7 9 3 6 1 7 6 2 8 4 3 10 5
-vardas467 pavarde467 1 8 10 3 8 7 3 3 8 9 10 2 8 6 1 9
-vardas468 pavarde468 3 1 5 1 3 10 1 1 7 5 8 3 7 7 7 9
-vardas475 pavarde475 4 7 5 2 6 3 7 4 8 3 4 1 5 5 6 8
-vardas476 pavarde476 9 10 9 8 1 3 2 10 9 5 6 9 1 3 1 6
-vardas477 pavarde477 9 7 8 6 1 6 9 8 1 4 10 7 8 6 4 9
-vardas478 pavarde478 5 4 8 6 7 9 7 7 4 4 5 6 6 7 2 6
-vardas479 pavarde479 6 1 2 6 8 2 4 8 6 5 6 3 10 10 3 7
-vardas48 pavarde48 4 3 9 1 4 8 1 1 4 5 10 3 8 5 3 6
-vardas480 pavarde480 3 10 4 1 9 10 8 4 3 4 9 1 1 10 6 8
-vardas481 pavarde481 10 7 3 8 9 8 7 6 5 3 8 4 4 3 2 6
-vardas482 pavarde482 2 5 9 2 4 8 5 9 3 4 1 5 5 6 2 7
-vardas483 pavarde483 5 7 4 5 4 2 10 10 6 9 4 9 1 5 7 5
-vardas484 pavarde484 2 5 6 5 4 1 5 6 6 5 1 10 3 2 6 7
-vardas485 pavarde485 8 1 3 4 5 2 3 10 2 8 9 3 5 7 9 6
-vardas486 pavarde486 3 4 2 6 6 9 3 1 5 3 1 7 7 8 5 6
-vardas488 pavarde488 9 10 9 5 10 4 5 4 6 7 1 4 5 7 2 5
-vardas489 pavarde489 4 2 9 5 9 4 6 4 8 3 4 9 8 2 3 7
-vardas49 pavarde49 3 5 5 4 9 7 1 9 10 3 3 4 2 9 4 5
-vardas490 pavarde490 1 1 1 10 4 7 5 2 6 5 7 10 2 8 6 7
-vardas491 pavarde491 2 6 1 10 9 9 3 6 3 7 5 1 8 7 9 10
-vardas494 pavarde494 6 5 8 4 9 5 8 2 8 2 6 1 2 10 5 8
-vardas496 pavarde496 2 1 9 2 7 8 6 6 1 3 7 4 3 1 2 7
-vardas497 pavarde497 1 4 3 7 5 7 7 5 7 10 5 5 7 10 9 10
-vardas500 pavarde500 3 2 10 1 2 3 9 4 3 10 9 4 5 9 8 5
-vardas501 pavarde501 4 8 9 5 4 8 5 2 2 10 7 6 4 5 10 7
-vardas505 pavarde505 4 8 8 9 2 4 6 6 8 9 5 4 2 10 7 6
-vardas508 pavarde508 8 3 2 2 8 1 5 4 1 3 4 10 10 7 2 6
-vardas509 pavarde509 6 5 6 1 3 1 2 10 10 9 10 8 1 7 10 9
-vardas511 pavarde511 9 4 3 3 7 4 2 8 2 3 6 5 10 7 3 10
-vardas513 pavarde513 9 10 4 5 5 7 2 9 10 9 3 1 6 7 2 5
-vardas514 pavarde514 2 1 5 6 5 10 8 6 5 5 3 7 7 10 8 5
-vardas515 pavarde515 9 3 1 5 1 3 3 10 3 7 2 8 3 4 2 6
-vardas516 pavarde516 6 8 2 1 7 1 8 3 5 10 10 2 1 9 8 9
-vardas517 pavarde517 3 9 5 3 3 8 5 5 4 6 5 7 1 8 4 7
-vardas518 pavarde518 6 5 9 4 6 6 7 2 7 8 5 7 8 3 7 10
-vardas519 pavarde519 3 1 2 5 10 8 1 4 6 5 2 6 3 7 4 10
-vardas52 pavarde52 10 10 7 1 7 5 10 10 1 9 10 4 2 5 9 10
-vardas522 pavarde522 7 7 1 7 8 10 6 7 6 10 2 6 3 7 6 8
-vardas523 pavarde523 6 4 2 3 1 2 4 4 4 5 9 3 10 3 5 6
-vardas525 pavarde525 9 5 4 9 6 9 4 2 4 2 4 5 6 9 10 8
-vardas526 pavarde526 3 5 8 1 6 6 3 8 5 2 2 10 6 5 3 6
-vardas527 pavarde527 9 6 6 7 7 9 8 2 10 3 6 7 3 7 5 8
-vardas529 pavarde529 4 2 7 10 10 6 3 2 10 8 8 3 6 4 10 9
-vardas531 pavarde531 8 10 6 9 7 8 10 6 8 8 8 3 1 9 1 8
-vardas532 pavarde532 8 9 4 6 1 5 8 10 9 1 3 1 9 6 6 6
-vardas533 pavarde533 7 1 6 3 1 6 1 8 3 8 2 5 9 5 4 6
-vardas537 pavarde537 7 10 4 4 4 6 3 8 10 8 2 9 7 9 1 5
-vardas539 pavarde539 8 1 7 4 6 1 3 7 9 5 6 7 5 6 2 5
-vardas541 pavarde541 2 8 8 9 8 1 6 8 5 1 5 9 8 8 5 10
-vardas543 pavarde543 9 3 10 9 3 5 6 9 7 10 8 4 7 2 5 7
-vardas545 pavarde545 8 2 10 1 8 6 1 4 7 8 7 6 2 1 2 6
-vardas547 pavarde547 5 6 6 2 3 7 5 2 6 3 7 7 6 8 4 5
-vardas548 pavarde548 10 10 7 8 2 6 6 3 5 8 8 1 9 4 6 6
-vardas55 pavarde55 3 2 8 3 5 2 7 6 8 9 6 10 3 8 4 7
-vardas550 pavarde550 8 6 1 9 1 8 4 7 5 1 9 6 6 4 1 6
-vardas552 pavarde552 6 1 2 8 10 7 4 5 9 4 2 4 10 4 2 8
-vardas554 pavarde554 5 3 2 4 9 5 10 8 1 3 1 10 6 4 9 8
-vardas555 pavarde555 8 6 1 2 5 5 8 5 8 2 9 6 6 7 8 10
-vardas558 pavarde558 10 8 1 7 4 9 3 3 10 1 8 4 7 1 7 10
-vardas559 pavarde559 5 3 8 2 6 1 9 3 5 2 6 6 3 8 8 5
-vardas560 pavarde560 5 10 1 10 9 3 5 10 3 2 5 1 4 1 1 8
-vardas562 pavarde562 1 2 2 1 4 6 10 9 9 4 1 3 6 3 10 10
-vardas563 pavarde563 5 3 9 6 3 1 2 7 8 6 4 4 6 5 6 8
-vardas570 pavarde570 4 8 6 9 7 8 6 7 8 2 10 9 7 7 3 7
-vardas572 pavarde572 10 5 3 9 4 8 5 3 10 5 4 8 1 6 4 10
-vardas573 pavarde573 4 10 3 4 5 8 8 4 10 2 8 9 4 5 1 6
-vardas575 pavarde575 5 10 7 9 9 7 5 8 8 2 6 3 8 8 8 8
-vardas577 pavarde577 6 2 3 4 8 7 1 7 9 8 10 6 5 9 6 8
-vardas578 pavarde578 4 10 3 6 6 2 7 1 2 3 5 10 9 10 2 5
-vardas579 pavarde579 3 6 8 1 3 1 9 1 8 8 8 5 7 3 4 10
-vardas583 pavarde583 6 1 6 5 3 2 3 2 7 7 1 6 2 9 2 7
-vardas584 pavarde584 7 9 1 7 9 10 6 7 1 10 4 9 7 1 1 5
-vardas585 pavarde585 2 7 9 4 10 3 7 8 1 9 5 2 9 6 1 5
-vardas586 pavarde586 6 1 1 7 10 7 3 2 8 6 3 7 9 3 1 10
-vardas587 pavarde587 1 1 5 10 3 1 7 3 9 2 6 9 9 6 3 7
-vardas588 pavarde588 8 3 3 10 1 7 1 1 3 5 7 1 10 7 2 10
-vardas589 pavarde589 7 6 10 1 8 8 5 8 9 10 6 10 8 8 6 5
-vardas59 pavarde59 8 8 8 7 10 2 2 10 1 9 10 9 9 1 4 8
-vardas591 pavarde591 8 3 5 5 10 9 2 9 10 9 10 7 6 5 4 8
-vardas594 pavarde594 9 8 2 4 3 2 3 8 2 1 1 8 5 8 1 8
-vardas595 pavarde595 9 1 3 10 3 8 1 5 10 8 4 10 10 1 1 8
-vardas597 pavarde597 7 4 4 1 1 4 7 3 3 1 2 2 1 5 2 8
-vardas6 pavarde6 7 7 5 10 6 1 5 9 8 2 8 3 8 3 3 7
-vardas60 pavarde60 1 7 10 3 2 8 8 10 8 7 3 8 2 6 9 9
-vardas600 pavarde600 5 3 8 5 6 10 2 3 9 2 3 5 2 8 7 6
-vardas602 pavarde602 7 5 9 2 6 10 6 7 3 10 1 5 9 9 10 4
-vardas603 pavarde603 9 3 1 1 2 3 3 2 3 7 8 2 1 6 6 7
-vardas605 pavarde605 6 8 6 9 1 9 2 3 5 10 6 7 5 4 3 6
-vardas606 pavarde606 8 2 3 5 6 8 3 1 3 5 5 6 10 5 2 7
-vardas607 pavarde607 2 7 5 4 5 7 9 1 8 6 7 2 9 1 9 8
-vardas608 pavarde608 2 4 3 9 1 5 10 4 2 6 1 1 2 2 8 6
-vardas609 pavarde609 9 4 9 5 2 9 8 9 5 6 2 3 7 1 1 10
-vardas61 pavarde61 5 6 7 6 7 9 5 9 9 4 9 8 6 3 5 6
-vardas610 pavarde610 4 3 9 6 9 10 1 10 7 2 3 9 5 2 4 5
-vardas611 pavarde611 5 4 10 7 3 9 7 9 4 9 3 2 1 3 2 6
-vardas612 pavarde612 7 10 1 8 1 2 7 7 5 9 5 1 10 10 6 7
-vardas615 pavarde615 1 1 2 7 1 9 9 2 1 10 4 5 4 2 9 9
-vardas617 pavarde617 9 9 3 10 7 1 3 9 2 8 5 5 9 4 5 10
-vardas619 pavarde619 1 10 3 10 10 7 8 3 4 3 7 5 6 3 4 9
-vardas62 pavarde62 1 6 8 4 3 8 3 2 4 5 10 5 2 10 6 8
-vardas620 pavarde620 10 6 8 2 8 1 8 5 7 4 7 2 6 5 5 9
-vardas621 pavarde621 4 9 8 4 7 5 8 2 9 5 6 6 9 2 4 9
-vardas622 pavarde622 9 3 10 6 4 7 3 2 2 1 3 9 5 9 7 9
-vardas625 pavarde625 8 1 7 8 3 3 7 10 7 3 7 3 4 10 8 6
-vardas626 pavarde626 6 8 5 8 2 6 3 4 9 8 3 2 10 10 4 8
-vardas627 pavarde627 2 1 7 7 5 5 6 1 7 4 6 1 5 3 8 10
-vardas628 pavarde628 2 5 9 3 10 1 6 8 10 1 9 2 2 5 1 6
-vardas63 pavarde63 5 2 3 3 2 7 3 1 3 3 10 8 5 4 6 7
-vardas630 pavarde630 4 5 4 5 7 1 2 6 1 2 9 3 6 9 10 10
-vardas631 pavarde631 8 1 1 9 1 2 10 2 10 2 9 10 3 5 1 8
-vardas632 pavarde632 9 4 2 5 4 5 2 7 6 1 1 4 9 10 5 6
-vardas633 pavarde633 10 5 6 2 8 8 3 7 9 3 6 3 7 6 2 7
-vardas635 pavarde635 10 6 4 8 5 8 4 5 10 2 7 6 9 10 2 10
-vardas636 pavarde636 4 4 6 4 7 8 9 1 10 10 3 3 7 4 5 6
-vardas637 pavarde637 1 10 5 5 7 9 9 6 2 7 3 10 6 6 9 9
-vardas638 pavarde638 1 6 4 7 5 5 9 4 6 1 8 2 7 2 7 7
-vardas639 pavarde639 1 2 2 9 2 2 6 5 9 10 4 4 5 5 5 7
-vardas641 pavarde641 2 2 2 3 6 8 7 4 7 2 9 4 6 3 10 8
-vardas643 pavarde643 5 9 7 10 6 5 3 5 7 1 8 4 6 9 1 10
-vardas644 pavarde644 6 4 5 8 9 1 4 10 7 4 4 10 6 1 5 10
-vardas645 pavarde645 10 3 9 7 10 3 1 8 6 10 1 1 1 4 10 8
-vardas646 pavarde646 9 6 5 7 7 10 9 3 5 4 2 10 7 8 10 6
-vardas647 pavarde647 3 10 4 2 3 5 9 8 6 1 10 6 6 1 3 5
-vardas648 pavarde648 6 9 3 2 8 3 6 2 7 10 4 3 7 3 10 9
-vardas65 pavarde65 1 3 6 2 10 8 2 4 2 3 1 7 9 8 5 10
-vardas650 pavarde650 7 7 3 5 1 1 8 7 10 1 1 8 5 2 9 9
-vardas652 pavarde652 5 5 9 5 5 9 4 4 9 6 4 4 8 2 4 6
-vardas655 pavarde655 5 6 6 3 6 5 5 4 6 6 10 5 7 1 8 5
-vardas657 pavarde657 4 6 5 10 10 9 5 5 7 7 1 5 7 8 9 6
-vardas66 pavarde66 3 5 5 6 10 2 3 9 10 7 1 7 5 1 10 5
-vardas663 pavarde663 3 7 2 5 9 2 6 2 1 1 5 9 5 4 5 6
-vardas664 pavarde664 10 8 4 2 4 6 7 6 7 3 3 3 4 3 7 6
-vardas665 pavarde665 1 8 3 10 10 10 3 10 10 10 1 4 5 5 10 4
-vardas667 pavarde667 6 9 4 5 8 7 7 9 6 7 2 2 3 3 5 6
-vardas668 pavarde668 10 2 6 1 8 2 3 3 2 4 4 4 2 10 8 10
-vardas669 pavarde669 10 2 4 9 10 10 7 7 8 10 8 10 3 4 7 4
-vardas674 pavarde674 3 8 9 4 3 6 6 9 4 3 1 6 5 5 10 8
-vardas675 pavarde675 3 1 9 10 10 1 6 10 2 3 4 3 6 7 4 10
-vardas678 pavarde678 8 1 9 6 2 9 9 8 9 7 9 6 7 6 9 5
-vardas680 pavarde680 5 4 8 8 4 8 6 5 7 4 2 3 1 1 10 5
-vardas681 pavarde681 1 5 6 9 1 9 7 3 6 4 8 8 6 4 10 10
-vardas683 pavarde683 1 10 9 2 8 7 6 5 10 3 4 5 8 4 7 7
-vardas684 pavarde684 3 4 9 1 8 7 4 5 6 1 2 8 7 6 8 7
-vardas685 pavarde685 5 8 10 4 6 5 8 8 10 2 2 7 7 10 5 9
-vardas687 pavarde687 6 10 6 1 5 3 8 6 6 2 4 2 3 1 2 8
-vardas688 pavarde688 5 3 9 8 6 7 8 2 8 5 5 6 3 5 8 8
-vardas689 pavarde689 5 3 10 1 7 10 6 3 1 1 6 3 1 10 2 6
-vardas690 pavarde690 2 1 5 9 9 4 10 6 10 7 3 2 1 10 9 5
-vardas692 pavarde692 7 8 10 5 1 2 2 10 8 4 1 8 5 1 3 6
-vardas693 pavarde693 1 9 6 1 3 9 2 7 10 7 3 10 3 7 1 10
-vardas694 pavarde694 4 1 6 5 4 10 4 1 5 7 8 10 9 2 7 9
-vardas695 pavarde695 3 4 2 5 5 3 3 4 9 5 6 1 1 6 2 7
-vardas696 pavarde696 8 8 1 1 9 6 3 3 4 3 4 3 4 1 3 8
-vardas697 pavarde697 6 4 4 10 8 6 6 6 3 1 7 5 8 10 1 8
-vardas699 pavarde699 8 1 2 6 9 9 1 3 1 9 7 9 9 8 6 7
-vardas7 pavarde7 2 1 7 2 6 10 5 10 1 10 2 8 8 2 2 6
-vardas70 pavarde70 3 5 10 10 10 5 10 9 2 7 4 10 4 4 5 7
-vardas700 pavarde700 2 5 4 2 7 5 8 1 9 7 1 6 9 8 8 7
-vardas701 pavarde701 10 1 2 10 10 4 2 10 3 9 10 1 8 7 9 9
-vardas706 pavarde706 7 10 8 3 3 10 7 1 5 6 7 10 8 8 4 8
-vardas707 pavarde707 9 9 5 6 5 5 4 1 9 6 7 8 10 4 1 8
-vardas709 pavarde709 9 5 9 5 1 4 6 9 10 4 8 9 7 9 8 4
-vardas71 pavarde71 2 6 7 2 8 3 3 10 3 9 2 3 5 8 9 7
-vardas715 pavarde715 7 5 6 9 9 2 3 5 9 3 6 3 6 2 6 10
-vardas718 pavarde718 7 5 5 8 5 4 2 3 2 4 1 8 3 9 10 8
-vardas719 pavarde719 2 10 1 8 5 10 5 3 5 3 7 3 9 2 6 7
-vardas72 pavarde72 4 8 8 3 4 8 3 6 4 8 7 9 2 4 7 5
-vardas720 pavarde720 7 2 6 3 5 7 5 6 10 7 6 4 5 5 1 8
-vardas726 pavarde726 5 6 5 5 7 4 7 8 6 2 3 3 9 8 8 7
-vardas728 pavarde728 6 10 9 2 6 5 2 1 9 4 6 7 2 3 5 6
-vardas731 pavarde731 10 8 1 7 2 5 1 9 3 5 3 9 6 1 2 9
-vardas732 pavarde732 9 7 5 2 4 6 5 3 1 5 7 1 1 7 5 10
-vardas733 pavarde733 4 6 8 5 10 8 3 5 2 7 3 10 9 7 8 8
-vardas734 pavarde734 3 5 1 8 2 6 3 4 10 9 6 2 5 1 1 8
-vardas735 pavarde735 6 9 5 7 8 7 1 2 6 6 1 4 2 10 3 6
-vardas736 pavarde736 6 4 3 9 1 7 3 10 6 8 3 10 10 5 10 5
-vardas738 pavarde738 8 4 1 8 10 3 9 7 3 1 7 2 6 8 9 10
-vardas741 pavarde741 8 7 5 7 2 3 4 1 3 6 7 8 9 5 8 7
-vardas742 pavarde742 4 7 7 5 5 3 2 4 5 10 7 6 7 2 9 6
-vardas743 pavarde743 9 3 2 2 8 7 2 2 5 1 9 3 5 8 2 8
-vardas745 pavarde745 5 2 7 2 8 1 6 4 1 4 9 5 4 10 5 10
-vardas75 pavarde75 4 2 9 1 2 8 10 2 1 4 6 10 5 9 5 7
-vardas750 pavarde750 4 9 10 9 8 4 3 4 1 4 5 1 2 7 3 9
-vardas751 pavarde751 7 8 3 6 10 5 2 5 10 7 7 6 10 8 10 6
-vardas753 pavarde753 8 6 7 7 10 10 4 9 6 10 6 8 9 5 3 6
-vardas754 pavarde754 4 8 5 8 6 6 4 9 2 10 4 7 8 7 8 6
-vardas755 pavarde755 4 6 4 3 6 7 3 3 9 8 2 9 2 4 5 7
-vardas757 pavarde757 8 8 8 5 5 10 8 5 9 9 3 2 5 9 1 10
-vardas758 pavarde758 9 6 10 7 5 1 4 2 5 9 9 7 3 1 2 10
-vardas76 pavarde76 10 3 10 1 4 1 4 4 8 10 5 10 10 2 10 5
-vardas760 pavarde760 7 1 10 1 3 3 5 10 3 3 6 5 6 10 7 6
-vardas762 pavarde762 7 2 4 2 7 8 1 1 1 8 6 6 7 4 3 7
-vardas766 pavarde766 3 2 5 8 10 1 6 4 2 2 7 8 9 9 9 10
-vardas769 pavarde769 8 4 6 5 10 3 7 3 8 1 1 8 3 9 9 8
-vardas770 pavarde770 2 9 4 6 4 2 4 4 10 10 1 7 3 9 9 10
-vardas771 pavarde771 4 5 6 3 9 3 7 6 5 7 4 9 5 4 8 8
-vardas774 pavarde774 3 10 10 7 10 9 10 2 1 2 3 2 4 8 7 10
-vardas775 pavarde775 9 3 6 1 8 8 8 8 7 2 5 7 4 2 10 8
-vardas776 pavarde776 1 9 4 3 10 5 4 10 8 8 1 1 8 9 2 6
-vardas777 pavarde777 4 8 6 1 7 3 10 4 7 7 2 2 8 2 9 10
-vardas778 pavarde778 2 2 2 1 8 7 2 6 7 5 8 4 3 10 9 6
-vardas779 pavarde779 9 4 8 7 9 8 10 5 4 4 6 1 7 6 10 8
-vardas78 pavarde78 10 3 5 5 5 10 10 4 9 4 3 10 6 5 4 10
-vardas780 pavarde780 9 4 1 6 2 4 1 8 8 1 1 1 10 9 8 8
-vardas781 pavarde781 5 6 4 3 3 6 9 8 1 6 10 7 1 1 6 9
-vardas782 pavarde782 6 8 6 8 2 9 5 9 9 6 1 10 6 9 9 10
-vardas784 pavarde784 10 7 1 3 5 5 2 5 2 4 4 8 2 2 9 7
-vardas785 pavarde785 5 3 6 6 6 2 6 7 9 3 7 7 7 8 10 8
-vardas786 pavarde786 4 10 1 10 6 4 6 10 7 9 9 1 2 7 9 6
-vardas788 pavarde788 7 10 4 4 3 9 3 2 7 1 2 10 10 2 8 10
-vardas789 pavarde789 8 10 8 8 10 4 6 4 5 2 4 4 9 4 7 7
-vardas790 pavarde790 5 10 10 10 1 5 1 9 5 4 9 6 5 6 6 5
-vardas791 pavarde791 7 5 2 7 9 9 2 5 2 8 8 2 3 6 8 7
-vardas792 pavarde792 8 7 6 8 1 6 8 8 9 6 3 6 3 10 10 10
-vardas793 pavarde793 7 3 8 7 1 9 1 4 6 10 5 8 8 2 7 5
-vardas795 pavarde795 6 9 8 8 8 10 1 5 9 5 5 6 8 1 2 8
-vardas796 pavarde796 4 7 10 3 10 1 3 8 6 7 10 1 3 2 4 10
-vardas798 pavarde798 8 4 8 7 6 10 6 2 8 6 4 2 9 8 2 8
-vardas8 pavarde8 10 8 8 7 8 4 7 6 7 4 10 5 9 2 3 10
-vardas80 pavarde80 5 2 8 10 4 7 3 2 3 6 4 10 2 9 9 8
-vardas800 pavarde800 6 1 2 3 2 10 6 10 7 10 1 5 9 4 2 10
-vardas801 pavarde801 6 8 5 10 9 10 1 9 5 8 8 10 10 2 5 7
-vardas802 pavarde802 4 7 9 6 8 5 5 4 6 7 10 4 3 3 5 8
-vardas803 pavarde803 1 10 9 1 1 10 10 5 9 7 5 8 10 9 4 4
-vardas806 pavarde806 8 3 8 8 9 8 3 10 8 3 4 10 7 8 2 5
-vardas807 pavarde807 1 6 1 2 2 1 4 4 8 4 5 5 9 2 8 8
-vardas811 pavarde811 3 7 7 10 4 5 4 6 10 4 6 6 4 3 8 8
-vardas813 pavarde813 5 10 2 9 5 5 6 6 1 2 2 4 4 9 3 10
-vardas814 pavarde814 3 2 6 2 6 4 2 5 7 7 6 6 3 9 7 10
-vardas815 pavarde815 1 8 8 5 5 5 2 7 6 3 10 2 3 4 1 8
-vardas819 pavarde819 10 6 8 5 6 9 8 2 2 10 9 9 6 5 1 8
-vardas82 pavarde82 8 5 2 1 1 7 5 5 4 8 4 5 8 3 2 8
-vardas821 pavarde821 6 5 1 3 3 8 4 6 10 5 5 5 9 7 2 8
-vardas822 pavarde822 1 3 2 9 3 10 5 4 7 10 10 1 2 7 7 7
-vardas824 pavarde824 8 10 4 10 1 10 3 7 9 2 8 1 10 6 9 10
-vardas825 pavarde825 4 10 5 9 6 7 6 8 5 7 8 7 1 6 1 8
-vardas826 pavarde826 5 6 9 6 5 4 2 6 7 1 6 7 6 6 6 9
-vardas829 pavarde829 10 9 4 9 5 5 5 7 3 6 1 8 10 5 8 10
-vardas830 pavarde830 8 7 6 5 8 7 9 9 3 9 9 6 7 8 6 6
-vardas831 pavarde831 8 10 6 4 6 2 10 10 8 3 7 9 9 7 10 8
-vardas832 pavarde832 3 5 3 10 1 3 10 5 2 1 3 10 10 10 7 8
-vardas837 pavarde837 10 6 7 8 10 6 3 8 7 5 8 9 9 9 9 9
-vardas84 pavarde84 1 6 4 3 2 10 8 7 9 3 1 7 5 4 4 7
-vardas840 pavarde840 5 7 1 10 10 7 2 3 3 10 10 4 5 5 4 6
-vardas841 pavarde841 9 5 7 7 8 8 2 6 6 7 5 2 2 2 6 6
-vardas842 pavarde842 10 9 8 9 5 9 3 9 8 2 2 3 7 7 10 7
-vardas844 pavarde844 8 1 10 4 1 3 5 9 6 8 3 2 5 2 8 7
-vardas845 pavarde845 9 3 7 4 1 5 5 5 4 7 3 7 8 9 10 8
-vardas847 pavarde847 6 6 9 6 10 3 3 5 1 7 3 10 5 3 7 8
-vardas848 pavarde848 4 8 1 9 4 4 9 8 1 3 8 7 5 7 3 10
-vardas850 pavarde850 4 4 1 10 9 9 7 9 2 7 7 8 3 9 9 4
-vardas852 pavarde852 3 8 10 3 7 8 1 10 4 7 9 6 5 7 1 10
-vardas853 pavarde853 5 10 2 3 8 4 7 8 4 5 6 8 6 3 10 10
-vardas855 pavarde855 2 7 7 1 10 3 8 3 10 3 3 7 8 4 7 10
-vardas857 pavarde857 1 3 4 3 7 1 7 8 6 1 5 3 5 3 4 9
-vardas858 pavarde858 4 1 3 7 1 10 10 10 9 8 4 9 2 2 2 5
-vardas859 pavarde859 6 5 7 5 7 5 2 4 6 8 8 2 10 1 10 6
-vardas86 pavarde86 9 8 5 2 7 4 9 6 6 1 2 3 7 5 9 6
-vardas860 pavarde860 3 4 2 5 3 1 4 1 1 8 1 2 9 2 6 7
-vardas861 pavarde861 8 4 1 7 1 2 10 6 2 10 7 3 10 8 8 5
-vardas862 pavarde862 3 10 9 5 2 3 8 2 2 8 4 10 2 1 8 9
-vardas864 pavarde864 4 2 9 5 6 8 7 7 6 2 8 9 2 6 9 10
-vardas865 pavarde865 3 4 6 4 2 1 8 9 4 3 5 4 7 10 8 10
-vardas866 pavarde866 1 7 4 6 4 10 2 1 1 9 1 5 6 10 4 9
-vardas868 pavarde868 9 8 6 4 8 9 7 10 10 7 6 5 6 10 5 10
-vardas869 pavarde869 3 1 5 6 4 10 5 1 2 8 4 2 10 8 3 10
-vardas87 pavarde87 7 3 6 3 7 10 2 4 4 2 6 3 7 10 5 5
-vardas872 pavarde872 9 8 6 9 8 1 8 5 9 3 10 1 3 4 4 5
-vardas873 pavarde873 4 3 10 6 9 5 9 3 5 4 9 4 2 3 6 10
-vardas874 pavarde874 2 3 8 10 3 5 6 3 10 7 3 2 10 7 7 6
-vardas877 pavarde877 4 8 4 8 9 1 8 7 6 2 6 5 3 7 6 6
-vardas878 pavarde878 8 8 1 3 8 1 9 4 3 6 1 3 4 6 5 9
-vardas88 pavarde88 7 1 8 5 4 8 10 1 1 3 3 7 10 1 4 6
-vardas881 pavarde881 1 3 6 3 8 8 9 4 6 4 4 2 5 10 5 5
-vardas883 pavarde883 7 5 6 6 2 6 1 7 10 4 8 6 6 4 10 6
-vardas884 pavarde884 5 5 2 3 2 1 6 3 3 4 8 7 9 5 2 7
-vardas885 pavarde885 1 7 2 2 5 2 1 6 8 8 1 3 2 2 10 8
-vardas886 pavarde886 6 1 1 9 2 8 3 6 1 1 2 1 7 4 8 7
-vardas889 pavarde889 5 7 3 7 7 7 4 4 2 7 4 9 7 3 4 10
-vardas892 pavarde892 2 6 2 4 3 1 6 6 1 8 10 5 10 6 7 10
-vardas895 pavarde895 5 10 5 3 8 6 2 2 4 8 4 7 5 5 9 5
-vardas896 pavarde896 1 6 9 7 9 10 3 9 2 5 2 10 6 4 5 10
-vardas897 pavarde897 3 2 4 2 7 5 5 2 4 8 8 9 5 8 5 5
-vardas898 pavarde898 4 4 4 2 5 6 2 9 3 3 10 8 6 4 7 10
-vardas899 pavarde899 5 2 3 4 8 7 7 1 6 7 1 10 4 6 7 7
-vardas9 pavarde9 4 10 1 9 9 6 1 10 7 4 9 6 7 2 2 6
-vardas90 pavarde90 10 4 6 5 4 7 5 4 2 10 2 1 10 5 6 7
-vardas900 pavarde900 1 10 10 7 5 1 5 9 3 4 6 10 10 4 9 6
-vardas903 pavarde903 9 8 5 7 7 1 3 2 6 1 10 9 4 9 3 7
-vardas904 pavarde904 6 5 8 7 3 5 10 5 10 5 6 9 1 5 4 9
-vardas905 pavarde905 4 8 7 10 1 2 3 8 2 2 6 7 1 10 3 8
-vardas906 pavarde906 4 2 6 7 7 5 3 8 2 1 6 4 5 9 2 10
-vardas907 pavarde907 9 10 9 9 1 1 6 4 4 3 1 6 3 5 5 8
-vardas908 pavarde908 7 10 6 5 7 9 2 10 9 10 3 5 10 4 4 8
-vardas91 pavarde91 3 6 10 2 8 8 5 2 2 10 2 4 9 8 5 10
-vardas912 pavarde912 2 6 3 6 9 4 8 8 5 6 7 1 5 8 3 9
-vardas913 pavarde913 6 9 8 10 5 7 4 3 3 8 9 3 3 7 5 6
-vardas917 pavarde917 8 3 8 4 2 8 2 8 8 4 8 7 10 4 9 6
-vardas922 pavarde922 8 1 10 7 6 5 5 3 7 9 4 1 10 10 5 6
-vardas923 pavarde923 2 8 6 3 6 7 8 1 9 10 4 10 10 4 3 10
-vardas927 pavarde927 1 7 1 1 2 9 1 6 3 10 2 1 4 6 4 10
-vardas928 pavarde928 6 7 4 10 6 4 2 5 3 5 5 5 4 6 7 7
-vardas929 pavarde929 2 9 9 6 7 1 3 2 2 4 2 5 2 5 5 9
-vardas93 pavarde93 4 9 6 1 6 10 3 7 9 6 3 9 4 7 8 9
-vardas930 pavarde930 4 10 9 9 5 10 5 8 7 9 2 2 4 10 8 8
-vardas931 pavarde931 8 8 3 7 8 5 8 2 1 1 6 2 5 2 10 10
-vardas932 pavarde932 2 8 10 8 10 5 5 8 3 9 9 9 8 9 6 8
-vardas934 pavarde934 8 8 8 7 4 5 4 7 3 5 7 2 3 2 1 10
-vardas935 pavarde935 1 6 7 6 10 5 4 2 1 2 3 8 10 3 10 8
-vardas936 pavarde936 2 7 6 6 3 10 4 7 6 10 9 8 3 1 7 5
-vardas937 pavarde937 7 6 2 6 10 5 10 2 7 4 1 6 6 10 5 7
-vardas938 pavarde938 9 1 4 1 2 7 8 7 8 8 6 10 10 4 4 6
-vardas939 pavarde939 9 6 4 1 2 5 2 8 8 3 6 5 2 10 3 10
-vardas94 pavarde94 8 3 7 7 3 10 8 1 4 8 3 4 6 2 8 9
-vardas940 pavarde940 2 7 3 3 5 10 1 3 9 6 4 8 10 10 6 8
-vardas942 pavarde942 10 1 6 5 10 9 9 10 4 2 7 3 3 4 3 7
-vardas944 pavarde944 3 6 1 4 4 9 3 7 3 1 2 5 5 6 4 8
-vardas945 pavarde945 9 10 8 2 1 2 1 4 4 5 8 9 7 6 5 9
-vardas947 pavarde947 1 7 4 1 9 4 4 4 9 1 4 7 8 8 8 8
-vardas948 pavarde948 5 1 3 1 7 7 2 3 3 8 5 5 9 2 7 9
-vardas95 pavarde95 10 5 2 7 5 4 6 5 9 8 4 4 6 1 2 5
-vardas950 pavarde950 9 8 3 5 6 4 9 9 2 3 5 10 7 3 1 7
-vardas954 pavarde954 1 6 5 1 3 7 2 4 2 7 1 10 1 6 2 8
-vardas955 pavarde955 7 10 3 9 10 4 8 3 9 1 9 8 5 7 3 8
-vardas958 pavarde958 1 5 6 6 8 7 2 5 7 9 4 3 7 1 8 5
-vardas959 pavarde959 1 2 5 6 4 7 9 7 9 1 7 8 5 3 10 5
-vardas96 pavarde96 6 8 1 8 9 10 10 4 10 5 7 5 6 6 6 7
-vardas960 pavarde960 9 7 2 6 3 5 2 2 5 6 4 2 6 1 8 8
-vardas962 pavarde962 5 1 9 10 6 2 1 10 7 4 3 5 6 1 4 10
-vardas964 pavarde964 4 10 2 1 2 2 10 10 7 3 4 3 5 10 4 6
-vardas967 pavarde967 6 10 2 1 3 2 8 5 8 3 6 9 9 10 10 6
-vardas969 pavarde969 6 1 4 9 5 3 5 2 7 2 10 7 2 2 3 7
-vardas97 pavarde97 1 7 3 7 10 10 3 10 7 6 6 4 9 7 8 4
-vardas971 pavarde971 8 1 2 2 3 6 6 10 7 7 6 10 10 10 8 6
-vardas973 pavarde973 1 2 5 6 7 2 7 5 9 4 5 8 4 4 6 5
-vardas975 pavarde975 3 7 8 1 1 4 8 1 7 2 10 2 5 5 7 8
-vardas976 pavarde976 4 7 10 5 4 2 7 7 9 9 6 8 2 8 10 5
-vardas978 pavarde978 6 3 8 1 4 6 10 4 6 5 3 8 3 3 4 9
-vardas98 pavarde98 7 1 3 7 10 4 1 9 8 7 6 3 5 1 1 7
-vardas980 pavarde980 2 10 2 7 8 1 2 3 7 4 10 9 8 3 7 7
-vardas982 pavarde982 8 7 8 7 9 1 10 5 4 1 6 4 6 2 10 10
-vardas983 pavarde983 5 8 1 7 8 5 7 7 6 3 2 6 1 9 7 10
-vardas984 pavarde984 5 6 7 5 8 8 9 4 8 6 7 3 10 8 4 6
-vardas985 pavarde985 5 6 2 4 1 1 2 6 3 3 4 5 3 2 6 7
-vardas986 pavarde986 10 4 3 7 1 4 10 1 9 6 3 8 3 9 3 9
-vardas987 pavarde987 4 7 2 4 7 4 2 1 8 5 7 1 8 4 9 7
-vardas988 pavarde988 10 4 4 2 7 5 2 7 1 7 5 5 5 9 6 8
-vardas989 pavarde989 7 7 4 5 2 7 7 2 3 5 4 10 9 2 7 8
-vardas990 pavarde990 7 2 9 3 6 3 10 8 9 6 3 5 6 8 2 5
-vardas995 pavarde995 10 5 2 2 9 4 6 5 2 10 10 2 4 6 7 7
+Vardas          Pavarde       Galutinis
+vardas2        pavarde2       7.39
+vardas3        pavarde3       7.75
+vardas4        pavarde4       6.27
+vardas7        pavarde7       6.88
+vardas10       pavarde10      7.80
+vardas13       pavarde13      6.13
+vardas14       pavarde14      6.83
+vardas16       pavarde16      7.25
+vardas19       pavarde19      7.01
+vardas24       pavarde24      5.68
+vardas26       pavarde26      5.00
+vardas31       pavarde31      6.47
+vardas34       pavarde34      5.43
+vardas37       pavarde37      7.53
+vardas38       pavarde38      7.23
+vardas40       pavarde40      6.75
+vardas42       pavarde42      5.97
+vardas43       pavarde43      6.35
+vardas44       pavarde44      6.23
+vardas45       pavarde45      7.53
+vardas48       pavarde48      5.52
+vardas49       pavarde49      7.39
+vardas50       pavarde50      5.65
+vardas51       pavarde51      7.00
+vardas52       pavarde52      5.12
+vardas54       pavarde54      7.09
+vardas56       pavarde56      8.48
+vardas57       pavarde57      6.15
+vardas58       pavarde58      7.67
+vardas60       pavarde60      7.48
+vardas64       pavarde64      6.55
+vardas66       pavarde66      6.23
+vardas68       pavarde68      6.93
+vardas70       pavarde70      7.60
+vardas71       pavarde71      7.72
+vardas73       pavarde73      7.97
+vardas75       pavarde75      5.29
+vardas76       pavarde76      5.92
+vardas78       pavarde78      5.29
+vardas80       pavarde80      8.16
+vardas81       pavarde81      5.05
+vardas82       pavarde82      5.11
+vardas83       pavarde83      5.13
+vardas84       pavarde84      5.03
+vardas85       pavarde85      6.57
+vardas87       pavarde87      5.76
+vardas88       pavarde88      6.81
+vardas89       pavarde89      5.64
+vardas90       pavarde90      5.37
+vardas92       pavarde92      7.79
+vardas97       pavarde97      7.07
+vardas98       pavarde98      7.80
+vardas100      pavarde100     6.80
+vardas104      pavarde104     7.64
+vardas106      pavarde106     6.83
+vardas108      pavarde108     6.59
+vardas109      pavarde109     7.35
+vardas111      pavarde111     7.75
+vardas112      pavarde112     5.68
+vardas113      pavarde113     6.31
+vardas114      pavarde114     7.25
+vardas115      pavarde115     6.61
+vardas116      pavarde116     6.65
+vardas119      pavarde119     6.17
+vardas122      pavarde122     5.76
+vardas123      pavarde123     5.52
+vardas124      pavarde124     5.04
+vardas126      pavarde126     5.40
+vardas127      pavarde127     7.23
+vardas128      pavarde128     7.61
+vardas129      pavarde129     7.09
+vardas131      pavarde131     6.31
+vardas134      pavarde134     6.75
+vardas139      pavarde139     7.29
+vardas140      pavarde140     6.20
+vardas141      pavarde141     7.07
+vardas143      pavarde143     5.40
+vardas144      pavarde144     5.71
+vardas146      pavarde146     7.39
+vardas148      pavarde148     5.88
+vardas149      pavarde149     6.47
+vardas150      pavarde150     7.23
+vardas151      pavarde151     6.80
+vardas152      pavarde152     6.20
+vardas153      pavarde153     6.29
+vardas154      pavarde154     5.99
+vardas155      pavarde155     8.05
+vardas156      pavarde156     6.73
+vardas157      pavarde157     7.15
+vardas158      pavarde158     7.43
+vardas159      pavarde159     7.47
+vardas160      pavarde160     8.51
+vardas163      pavarde163     8.35
+vardas166      pavarde166     7.75
+vardas167      pavarde167     7.47
+vardas168      pavarde168     7.25
+vardas169      pavarde169     8.43
+vardas171      pavarde171     6.96
+vardas172      pavarde172     7.49
+vardas174      pavarde174     6.16
+vardas175      pavarde175     5.71
+vardas177      pavarde177     6.33
+vardas178      pavarde178     5.59
+vardas179      pavarde179     6.21
+vardas180      pavarde180     8.67
+vardas183      pavarde183     5.21
+vardas184      pavarde184     7.64
+vardas185      pavarde185     8.12
+vardas186      pavarde186     6.27
+vardas189      pavarde189     8.24
+vardas192      pavarde192     7.53
+vardas194      pavarde194     5.65
+vardas195      pavarde195     5.59
+vardas198      pavarde198     7.09
+vardas200      pavarde200     6.11
+vardas202      pavarde202     7.81
+vardas203      pavarde203     5.63
+vardas209      pavarde209     7.04
+vardas210      pavarde210     6.97
+vardas211      pavarde211     5.45
+vardas213      pavarde213     6.91
+vardas215      pavarde215     7.65
+vardas218      pavarde218     7.76
+vardas221      pavarde221     6.15
+vardas222      pavarde222     5.89
+vardas225      pavarde225     5.96
+vardas228      pavarde228     5.35
+vardas231      pavarde231     5.97
+vardas234      pavarde234     6.47
+vardas241      pavarde241     5.87
+vardas242      pavarde242     5.35
+vardas243      pavarde243     8.01
+vardas244      pavarde244     5.25
+vardas245      pavarde245     7.69
+vardas248      pavarde248     5.96
+vardas250      pavarde250     7.67
+vardas252      pavarde252     7.55
+vardas255      pavarde255     6.73
+vardas256      pavarde256     7.68
+vardas257      pavarde257     6.87
+vardas258      pavarde258     7.67
+vardas259      pavarde259     6.25
+vardas260      pavarde260     8.00
+vardas263      pavarde263     7.56
+vardas265      pavarde265     5.27
+vardas267      pavarde267     5.51
+vardas268      pavarde268     7.40
+vardas270      pavarde270     7.67
+vardas271      pavarde271     6.80
+vardas273      pavarde273     8.32
+vardas274      pavarde274     7.91
+vardas275      pavarde275     6.85
+vardas276      pavarde276     8.37
+vardas277      pavarde277     7.31
+vardas279      pavarde279     7.99
+vardas282      pavarde282     5.37
+vardas284      pavarde284     7.41
+vardas287      pavarde287     6.15
+vardas288      pavarde288     7.71
+vardas289      pavarde289     5.65
+vardas293      pavarde293     7.23
+vardas296      pavarde296     6.75
+vardas297      pavarde297     5.55
+vardas298      pavarde298     5.61
+vardas301      pavarde301     5.76
+vardas304      pavarde304     7.48
+vardas306      pavarde306     5.03
+vardas309      pavarde309     6.19
+vardas310      pavarde310     5.35
+vardas312      pavarde312     5.16
+vardas313      pavarde313     6.44
+vardas315      pavarde315     5.40
+vardas316      pavarde316     6.77
+vardas317      pavarde317     6.11
+vardas318      pavarde318     8.24
+vardas319      pavarde319     7.12
+vardas321      pavarde321     8.83
+vardas323      pavarde323     6.49
+vardas325      pavarde325     6.60
+vardas326      pavarde326     8.19
+vardas327      pavarde327     8.35
+vardas332      pavarde332     8.13
+vardas333      pavarde333     8.24
+vardas335      pavarde335     5.69
+vardas337      pavarde337     6.93
+vardas339      pavarde339     5.89
+vardas340      pavarde340     5.69
+vardas341      pavarde341     5.84
+vardas343      pavarde343     8.40
+vardas345      pavarde345     6.03
+vardas346      pavarde346     7.79
+vardas349      pavarde349     8.07
+vardas352      pavarde352     6.99
+vardas353      pavarde353     7.27
+vardas354      pavarde354     6.55
+vardas355      pavarde355     7.63
+vardas356      pavarde356     5.80
+vardas357      pavarde357     5.28
+vardas359      pavarde359     8.32
+vardas361      pavarde361     7.67
+vardas364      pavarde364     5.76
+vardas365      pavarde365     5.44
+vardas366      pavarde366     6.52
+vardas367      pavarde367     5.47
+vardas368      pavarde368     7.24
+vardas370      pavarde370     5.64
+vardas374      pavarde374     6.81
+vardas376      pavarde376     7.93
+vardas377      pavarde377     6.83
+vardas378      pavarde378     5.55
+vardas382      pavarde382     5.35
+vardas383      pavarde383     7.12
+vardas385      pavarde385     5.65
+vardas387      pavarde387     5.45
+vardas388      pavarde388     6.05
+vardas389      pavarde389     6.65
+vardas390      pavarde390     5.75
+vardas392      pavarde392     6.28
+vardas395      pavarde395     6.55
+vardas396      pavarde396     8.08
+vardas398      pavarde398     6.79
+vardas400      pavarde400     8.24
+vardas401      pavarde401     7.56
+vardas404      pavarde404     5.68
+vardas405      pavarde405     6.03
+vardas406      pavarde406     7.88
+vardas408      pavarde408     5.65
+vardas412      pavarde412     5.47
+vardas413      pavarde413     6.77
+vardas414      pavarde414     7.77
+vardas415      pavarde415     6.59
+vardas417      pavarde417     5.03
+vardas418      pavarde418     6.15
+vardas419      pavarde419     7.79
+vardas421      pavarde421     7.01
+vardas422      pavarde422     5.24
+vardas428      pavarde428     6.88
+vardas430      pavarde430     6.99
+vardas433      pavarde433     5.65
+vardas434      pavarde434     7.41
+vardas436      pavarde436     7.45
+vardas440      pavarde440     6.39
+vardas442      pavarde442     7.00
+vardas443      pavarde443     6.73
+vardas445      pavarde445     8.05
+vardas451      pavarde451     5.43
+vardas452      pavarde452     6.91
+vardas453      pavarde453     6.88
+vardas454      pavarde454     6.57
+vardas456      pavarde456     7.39
+vardas457      pavarde457     8.29
+vardas458      pavarde458     5.71
+vardas459      pavarde459     6.48
+vardas460      pavarde460     5.65
+vardas461      pavarde461     8.48
+vardas462      pavarde462     6.72
+vardas465      pavarde465     5.92
+vardas467      pavarde467     6.91
+vardas469      pavarde469     6.24
+vardas472      pavarde472     5.47
+vardas473      pavarde473     7.61
+vardas474      pavarde474     5.49
+vardas475      pavarde475     7.69
+vardas477      pavarde477     5.40
+vardas479      pavarde479     8.09
+vardas480      pavarde480     6.07
+vardas481      pavarde481     8.61
+vardas483      pavarde483     6.13
+vardas484      pavarde484     8.48
+vardas486      pavarde486     6.40
+vardas487      pavarde487     7.53
+vardas489      pavarde489     6.04
+vardas491      pavarde491     6.19
+vardas492      pavarde492     8.69
+vardas493      pavarde493     8.08
+vardas495      pavarde495     7.76
+vardas496      pavarde496     6.67
+vardas497      pavarde497     8.21
+vardas498      pavarde498     6.12
+vardas499      pavarde499     5.71
+vardas501      pavarde501     6.75
+vardas502      pavarde502     5.91
+vardas503      pavarde503     6.77
+vardas504      pavarde504     6.48
+vardas505      pavarde505     7.15
+vardas506      pavarde506     8.48
+vardas507      pavarde507     5.39
+vardas508      pavarde508     7.56
+vardas510      pavarde510     6.11
+vardas511      pavarde511     8.08
+vardas513      pavarde513     5.19
+vardas516      pavarde516     5.52
+vardas517      pavarde517     5.57
+vardas520      pavarde520     8.19
+vardas521      pavarde521     6.31
+vardas522      pavarde522     7.99
+vardas523      pavarde523     5.00
+vardas524      pavarde524     8.32
+vardas525      pavarde525     6.64
+vardas528      pavarde528     6.72
+vardas530      pavarde530     6.13
+vardas531      pavarde531     6.77
+vardas532      pavarde532     6.99
+vardas533      pavarde533     5.39
+vardas535      pavarde535     8.05
+vardas537      pavarde537     8.29
+vardas539      pavarde539     7.53
+vardas540      pavarde540     7.08
+vardas542      pavarde542     8.59
+vardas544      pavarde544     7.19
+vardas545      pavarde545     5.44
+vardas548      pavarde548     7.17
+vardas549      pavarde549     7.97
+vardas550      pavarde550     7.88
+vardas551      pavarde551     8.24
+vardas552      pavarde552     8.32
+vardas553      pavarde553     6.39
+vardas554      pavarde554     6.33
+vardas556      pavarde556     8.51
+vardas557      pavarde557     6.49
+vardas558      pavarde558     8.96
+vardas560      pavarde560     7.40
+vardas561      pavarde561     8.72
+vardas562      pavarde562     5.60
+vardas564      pavarde564     6.55
+vardas565      pavarde565     5.95
+vardas566      pavarde566     5.45
+vardas570      pavarde570     7.44
+vardas571      pavarde571     6.68
+vardas576      pavarde576     8.35
+vardas578      pavarde578     5.69
+vardas581      pavarde581     6.28
+vardas584      pavarde584     7.51
+vardas588      pavarde588     5.99
+vardas591      pavarde591     7.53
+vardas592      pavarde592     6.43
+vardas594      pavarde594     5.87
+vardas595      pavarde595     8.43
+vardas598      pavarde598     8.56
+vardas599      pavarde599     8.21
+vardas600      pavarde600     6.36
+vardas601      pavarde601     6.71
+vardas602      pavarde602     7.16
+vardas603      pavarde603     6.28
+vardas607      pavarde607     8.19
+vardas608      pavarde608     7.53
+vardas609      pavarde609     7.04
+vardas610      pavarde610     6.75
+vardas614      pavarde614     5.93
+vardas615      pavarde615     7.27
+vardas616      pavarde616     7.35
+vardas617      pavarde617     6.47
+vardas618      pavarde618     5.76
+vardas619      pavarde619     8.43
+vardas620      pavarde620     6.25
+vardas621      pavarde621     5.61
+vardas622      pavarde622     5.68
+vardas623      pavarde623     5.68
+vardas625      pavarde625     5.96
+vardas627      pavarde627     6.80
+vardas629      pavarde629     5.56
+vardas630      pavarde630     8.51
+vardas632      pavarde632     6.13
+vardas633      pavarde633     7.85
+vardas634      pavarde634     7.81
+vardas636      pavarde636     5.73
+vardas637      pavarde637     7.29
+vardas639      pavarde639     7.97
+vardas640      pavarde640     5.73
+vardas641      pavarde641     5.08
+vardas642      pavarde642     5.01
+vardas643      pavarde643     6.36
+vardas646      pavarde646     7.29
+vardas647      pavarde647     7.95
+vardas648      pavarde648     7.73
+vardas650      pavarde650     6.80
+vardas652      pavarde652     8.05
+vardas653      pavarde653     6.72
+vardas655      pavarde655     7.84
+vardas661      pavarde661     6.91
+vardas662      pavarde662     7.64
+vardas665      pavarde665     5.29
+vardas666      pavarde666     5.11
+vardas667      pavarde667     6.88
+vardas668      pavarde668     7.79
+vardas670      pavarde670     6.99
+vardas671      pavarde671     5.27
+vardas672      pavarde672     7.21
+vardas673      pavarde673     8.24
+vardas675      pavarde675     5.64
+vardas676      pavarde676     7.43
+vardas677      pavarde677     5.91
+vardas678      pavarde678     7.07
+vardas679      pavarde679     5.80
+vardas680      pavarde680     6.72
+vardas681      pavarde681     5.43
+vardas682      pavarde682     7.12
+vardas683      pavarde683     7.85
+vardas684      pavarde684     6.47
+vardas686      pavarde686     6.41
+vardas688      pavarde688     6.83
+vardas689      pavarde689     7.64
+vardas690      pavarde690     6.49
+vardas691      pavarde691     7.59
+vardas692      pavarde692     7.43
+vardas693      pavarde693     7.77
+vardas694      pavarde694     6.45
+vardas697      pavarde697     6.77
+vardas698      pavarde698     5.92
+vardas701      pavarde701     5.55
+vardas702      pavarde702     8.21
+vardas704      pavarde704     5.53
+vardas706      pavarde706     8.51
+vardas709      pavarde709     8.13
+vardas714      pavarde714     6.20
+vardas716      pavarde716     5.25
+vardas717      pavarde717     5.55
+vardas718      pavarde718     8.29
+vardas719      pavarde719     7.93
+vardas721      pavarde721     5.79
+vardas722      pavarde722     8.00
+vardas723      pavarde723     7.87
+vardas724      pavarde724     6.64
+vardas727      pavarde727     8.09
+vardas729      pavarde729     7.04
+vardas730      pavarde730     6.60
+vardas731      pavarde731     6.15
+vardas732      pavarde732     8.43
+vardas734      pavarde734     5.40
+vardas736      pavarde736     6.01
+vardas739      pavarde739     5.65
+vardas740      pavarde740     7.85
+vardas741      pavarde741     6.57
+vardas742      pavarde742     8.32
+vardas744      pavarde744     5.72
+vardas750      pavarde750     6.24
+vardas752      pavarde752     7.56
+vardas753      pavarde753     7.85
+vardas755      pavarde755     5.84
+vardas756      pavarde756     5.27
+vardas757      pavarde757     7.53
+vardas759      pavarde759     8.39
+vardas762      pavarde762     5.24
+vardas764      pavarde764     5.27
+vardas766      pavarde766     5.00
+vardas767      pavarde767     7.68
+vardas768      pavarde768     7.31
+vardas769      pavarde769     5.89
+vardas770      pavarde770     7.41
+vardas772      pavarde772     7.31
+vardas773      pavarde773     8.09
+vardas774      pavarde774     6.47
+vardas775      pavarde775     7.95
+vardas776      pavarde776     7.77
+vardas777      pavarde777     6.48
+vardas779      pavarde779     5.05
+vardas780      pavarde780     7.48
+vardas781      pavarde781     7.72
+vardas783      pavarde783     5.35
+vardas785      pavarde785     7.08
+vardas786      pavarde786     8.83
+vardas788      pavarde788     6.23
+vardas789      pavarde789     5.47
+vardas794      pavarde794     8.35
+vardas797      pavarde797     5.71
+vardas798      pavarde798     5.84
+vardas802      pavarde802     6.05
+vardas806      pavarde806     5.36
+vardas807      pavarde807     7.25
+vardas808      pavarde808     5.37
+vardas810      pavarde810     5.92
+vardas813      pavarde813     5.57
+vardas815      pavarde815     6.33
+vardas816      pavarde816     6.80
+vardas817      pavarde817     7.97
+vardas818      pavarde818     6.01
+vardas819      pavarde819     7.89
+vardas822      pavarde822     7.79
+vardas825      pavarde825     5.65
+vardas826      pavarde826     5.43
+vardas827      pavarde827     7.61
+vardas829      pavarde829     7.32
+vardas832      pavarde832     5.92
+vardas833      pavarde833     8.35
+vardas834      pavarde834     7.17
+vardas837      pavarde837     5.53
+vardas838      pavarde838     5.92
+vardas839      pavarde839     5.63
+vardas841      pavarde841     6.67
+vardas844      pavarde844     8.40
+vardas847      pavarde847     5.16
+vardas849      pavarde849     7.97
+vardas851      pavarde851     7.83
+vardas852      pavarde852     7.51
+vardas859      pavarde859     6.00
+vardas861      pavarde861     5.92
+vardas863      pavarde863     5.03
+vardas865      pavarde865     7.67
+vardas866      pavarde866     5.97
+vardas867      pavarde867     5.73
+vardas868      pavarde868     6.49
+vardas869      pavarde869     8.05
+vardas870      pavarde870     6.45
+vardas872      pavarde872     6.31
+vardas873      pavarde873     5.35
+vardas877      pavarde877     7.87
+vardas878      pavarde878     6.68
+vardas879      pavarde879     5.07
+vardas880      pavarde880     5.25
+vardas881      pavarde881     8.32
+vardas882      pavarde882     7.53
+vardas883      pavarde883     8.05
+vardas885      pavarde885     7.99
+vardas886      pavarde886     6.84
+vardas888      pavarde888     7.20
+vardas889      pavarde889     7.15
+vardas890      pavarde890     5.59
+vardas891      pavarde891     7.76
+vardas893      pavarde893     7.04
+vardas897      pavarde897     6.47
+vardas901      pavarde901     6.47
+vardas902      pavarde902     7.59
+vardas903      pavarde903     6.12
+vardas906      pavarde906     7.75
+vardas908      pavarde908     8.15
+vardas911      pavarde911     6.89
+vardas913      pavarde913     6.41
+vardas914      pavarde914     8.45
+vardas916      pavarde916     6.44
+vardas918      pavarde918     7.67
+vardas919      pavarde919     8.29
+vardas920      pavarde920     7.64
+vardas921      pavarde921     6.75
+vardas922      pavarde922     6.05
+vardas925      pavarde925     7.63
+vardas926      pavarde926     5.41
+vardas927      pavarde927     6.20
+vardas928      pavarde928     6.08
+vardas929      pavarde929     6.01
+vardas933      pavarde933     7.20
+vardas934      pavarde934     5.57
+vardas935      pavarde935     8.04
+vardas936      pavarde936     5.39
+vardas939      pavarde939     5.32
+vardas941      pavarde941     6.96
+vardas942      pavarde942     5.45
+vardas944      pavarde944     6.80
+vardas946      pavarde946     7.73
+vardas949      pavarde949     5.01
+vardas950      pavarde950     6.56
+vardas952      pavarde952     7.43
+vardas953      pavarde953     6.35
+vardas955      pavarde955     7.01
+vardas957      pavarde957     5.47
+vardas959      pavarde959     6.33
+vardas960      pavarde960     6.00
+vardas962      pavarde962     7.37
+vardas964      pavarde964     6.11
+vardas965      pavarde965     6.08
+vardas969      pavarde969     6.92
+vardas974      pavarde974     7.35
+vardas975      pavarde975     8.29
+vardas978      pavarde978     7.35
+vardas981      pavarde981     6.83
+vardas982      pavarde982     8.29
+vardas984      pavarde984     5.08
+vardas985      pavarde985     6.01
+vardas987      pavarde987     8.05
+vardas988      pavarde988     7.69
+vardas989      pavarde989     7.53
+vardas991      pavarde991     5.80
+vardas994      pavarde994     6.03
+vardas996      pavarde996     6.93
+vardas997      pavarde997     5.05
+vardas998      pavarde998     5.87
