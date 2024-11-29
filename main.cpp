@@ -10,11 +10,14 @@
 #include <chrono>
 #include <stdexcept>
 #include <numeric>
+#include <random>
+#include <filesystem>
 
 #include "mokinys.h"
 #include "statistika.h"
 
 using namespace std;
+namespace fs = std::filesystem;
 
 // Struktūros Laikai apibrėžimas
 struct Laikai
@@ -112,17 +115,18 @@ vector<Mokinys> duomenu_nuskaitymas_is_klaviaturos()
         }
     }
 
-vector<Mokinys> mokiniai;
+    vector<Mokinys> mokiniai;
 
-for (int k = 0; k < studentu_skaicius; ++k)
-{
-    Mokinys m = nuskaityti_mokinio_duomenis();
-    mokiniai.push_back(m);
-}
-return mokiniai;
+    for (int k = 0; k < studentu_skaicius; ++k)
+    {
+        // Mokinys m = nuskaityti_mokinio_duomenis();
+        // mokiniai.push_back(m);
+    }
+    return mokiniai;
 }
 */
-vector<Mokinys> duomenu_nuskaitymas_is_failo(string failo_vardas)
+
+vector<Mokinys> duomenu_nuskaitymas_is_failo(const string &failo_vardas)
 {
     vector<Mokinys> mokiniai;
 
@@ -167,13 +171,23 @@ vector<Mokinys> duomenu_nuskaitymas_is_failo(string failo_vardas)
     return mokiniai;
 }
 
-bool mokiniu_palygintojas(const Mokinys &kairys, const Mokinys &desinys)
+bool pagal_varda(const Mokinys &kairys, const Mokinys &desinys)
+{
+    return kairys.vardas < desinys.vardas;
+}
+
+bool pagal_pavarde(const Mokinys &kairys, const Mokinys &desinys)
 {
     if (kairys.pavarde == desinys.pavarde)
     {
         return kairys.vardas < desinys.vardas;
     }
     return kairys.pavarde < desinys.pavarde;
+}
+
+bool pagal_galutini(const Mokinys &kairys, const Mokinys &desinys)
+{
+    return kairys.galutinis < desinys.galutinis;
 }
 
 // funkcija, kuri sugeneruos faila su atsitiktiniais duomenimis
@@ -185,6 +199,10 @@ void failu_generavimas(int eiluciu_skaicius, const string &failo_vardas)
         cerr << "Nepavyko sukurti failo " << endl;
         return;
     }
+
+    random_device rd;
+    mt19937 mt(rd());
+    uniform_int_distribution<int> pazymiu_generavimas(1, 10);
 
     // irasom pirma eilute
     failas << "Vardas Pavarde ";
@@ -199,13 +217,13 @@ void failu_generavimas(int eiluciu_skaicius, const string &failo_vardas)
         failas << "vardas" << i << " pavarde" << i << " ";
         for (int j = 0; j < 15; j++)
         {
-            failas << rand() % 10 + 1 << " ";
+            failas << pazymiu_generavimas(mt) << " ";
         }
-        failas << rand() % 10 + 1 << endl;
+        failas << pazymiu_generavimas(mt) << endl;
     }
 }
 
-void failu_irasymas(vector<Mokinys> mokiniai, string failo_vardas)
+void failu_irasymas(const vector<Mokinys> &mokiniai, const string &failo_vardas)
 {
     ofstream failas(failo_vardas);
     if (!failas)
@@ -215,28 +233,15 @@ void failu_irasymas(vector<Mokinys> mokiniai, string failo_vardas)
     }
 
     // irasom pirma eilute
-    failas << "Vardas Pavarde ";
+    failas << left << setw(15) << "Vardas" << setw(15) << " Pavarde" << "Galutinis" << endl;
 
-    auto pazymiu_kiekis = mokiniai[0].namu_darbu_rezultatai.size();
-
-    for (int i = 1; i <= pazymiu_kiekis; i++)
+    for (const auto &mokinys : mokiniai)
     {
-        failas << "ND" << i << " ";
-    }
-    failas << "Egz." << endl;
-
-    for (auto mokinys : mokiniai)
-    {
-        failas << mokinys.vardas << " " << mokinys.pavarde << " ";
-        for (auto pazymys : mokinys.namu_darbu_rezultatai)
-        {
-            failas << pazymys << " ";
-        }
-        failas << mokinys.egzamino_rezultatas << endl;
+        failas << left << setw(15) << mokinys.vardas << setw(15) << mokinys.pavarde << fixed << setprecision(2) << mokinys.galutinis << endl;
     }
 }
 
-Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis)
+Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis, const string &rusiuoti_pagal)
 {
     try
     {
@@ -245,17 +250,31 @@ Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis)
         vector<Mokinys> mokiniai = duomenu_nuskaitymas_is_failo(failo_vardas);
         auto pabaiga_nuskaitymas = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> nuskaitymo_trukme = pabaiga_nuskaitymas - pradzia_nuskaitymas;
-
-        auto pradzia_rusiavimas = chrono::high_resolution_clock::now();
-        sort(mokiniai.begin(), mokiniai.end(), mokiniu_palygintojas);
-        auto pabaiga_rusiavimas = chrono::high_resolution_clock::now();
-        chrono::duration<double, milli> rusiavimo_trukme = pabaiga_rusiavimas - pradzia_rusiavimas;
+        cout << "Failo nuskaitymo laikas: " << nuskaitymo_trukme.count() << " ms" << endl;
 
         // kiekvieno mokinio galutinis pazymys bus skaiciuojamas pagal vidurki
         for (int i = 0; i < mokiniai.size(); i++)
         {
             mokiniai[i].galutinis = skaiciuoti_galutini(mokiniai[i], "vid");
         }
+
+        auto pradzia_rusiavimas = chrono::high_resolution_clock::now();
+        if (rusiuoti_pagal == "vardas")
+        {
+            sort(mokiniai.begin(), mokiniai.end(), pagal_varda);
+        }
+        else if (rusiuoti_pagal == "pavarde")
+        {
+            sort(mokiniai.begin(), mokiniai.end(), pagal_pavarde);
+        }
+        else if (rusiuoti_pagal == "galutinis")
+        {
+            sort(mokiniai.begin(), mokiniai.end(), pagal_galutini);
+        }
+
+        auto pabaiga_rusiavimas = chrono::high_resolution_clock::now();
+        chrono::duration<double, milli> rusiavimo_trukme = pabaiga_rusiavimas - pradzia_rusiavimas;
+        cout << "Rusiavimo laikas: " << rusiavimo_trukme.count() << " ms" << endl;
 
         vector<Mokinys> protingi;
         vector<Mokinys> silpni_moksluose;
@@ -272,8 +291,11 @@ Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis)
                 silpni_moksluose.push_back(mokiniai[i]);
             }
         }
+        mokiniai.clear();
+
         auto pabaiga_padalijimo = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> padalijimo_trukme = pabaiga_padalijimo - pradzia_padalijimo;
+        cout << "Padalijimo laikas: " << padalijimo_trukme.count() << " ms" << endl;
 
         string protingu_failo_vardas = "protingi_" + to_string(eiluciu_kiekis) + ".txt";
         string silpnu_failo_vardas = "silpni_" + to_string(eiluciu_kiekis) + ".txt";
@@ -282,14 +304,18 @@ Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis)
         failu_irasymas(protingi, protingu_failo_vardas);
         auto pabaiga_protingu_irasymas = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> protingu_irasymas_trukme = pabaiga_protingu_irasymas - pradzia_protingu_irasymas;
+        cout << "Protingu mokiniu isvedimo laikas: " << protingu_irasymas_trukme.count() << " ms" << endl;
 
         auto pradzia_silpnu_irasymas = chrono::high_resolution_clock::now();
         failu_irasymas(silpni_moksluose, silpnu_failo_vardas);
         auto pabaiga_silpnu_irasymas = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> silpnu_irasymas_trukme = pabaiga_silpnu_irasymas - pradzia_silpnu_irasymas;
+        cout << "Silpnu mokiniu isvedimo laikas: " << silpnu_irasymas_trukme.count() << " ms" << endl;
 
         auto pabaiga_bendras = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> bendras_trukme = pabaiga_bendras - pradzia_bendras;
+        cout << "Bendras laikas: " << bendras_trukme.count() << " ms" << endl;
+        cout << endl;
 
         return {nuskaitymo_trukme.count(), rusiavimo_trukme.count(), padalijimo_trukme.count(), protingu_irasymas_trukme.count(), silpnu_irasymas_trukme.count(), bendras_trukme.count()};
     }
@@ -300,19 +326,43 @@ Laikai eksperimentas(const string &failo_vardas, int eiluciu_kiekis)
     }
 }
 
+void generuoti_failus()
+{
+    vector<int> eksperimentai{1000, 10000, 100000, 1000000, 10000000};
+    for (int i = 0; i < eksperimentai.size(); i++)
+    {
+        string failo_vardas = "sugeneruoti_duomenys" + to_string(eksperimentai[i]) + ".txt";
+        if (!fs::exists(failo_vardas))
+        {
+            failu_generavimas(eksperimentai[i], failo_vardas);
+        }
+    }
+}
+
 int main()
 {
     try
     {
+        // Generuoju failus tik tuomet je jie neegzistuoja
+        generuoti_failus();
+
         vector<int> eksperimentai{1000, 10000, 100000, 1000000, 10000000};
-        vector<string> failu_vardai{"sugeneruoti_duomenys1000.txt", "sugeneruoti_duomenys10000.txt", "sugeneruoti_duomenys100000.txt", "sugeneruoti_duomenys1000000.txt", "sugeneruoti_duomenys10000000.txt"};
         int testu_kiekis = 2;
 
-        for (int i = 0; i < eksperimentai.size(); i++)
+        string rusiuoti_pagal;
+        while (true)
         {
-            failu_generavimas(eksperimentai[i], failu_vardai[i]);
+            cout << "Pasirinkite pagal ka rusiuoti (varda, pavarde, galutini): ";
+            cin >> rusiuoti_pagal;
+            if (rusiuoti_pagal == "varda" || rusiuoti_pagal == "pavarde" || rusiuoti_pagal == "galutini")
+            {
+                break;
+            }
+            else
+            {
+                cout << "Neteisingas pasirinkimas. Bandykite dar kartą." << endl;
+            }
         }
-
         for (int i = 0; i < eksperimentai.size(); i++)
         {
 
@@ -324,9 +374,12 @@ int main()
             vector<double> bendri_laikai;
             vector<double> laiku_vektorius;
 
+            cout << "---------[ Eksperimentai su " << eksperimentai[i] << " eiluciu ]---------" << endl;
+
             for (int j = 0; j < testu_kiekis; j++)
             {
-                Laikai laikai = eksperimentas(failu_vardai[i], eksperimentai[i]);
+                cout << "Testas " << j + 1 << ":" << endl;
+                Laikai laikai = eksperimentas("sugeneruoti_duomenys" + to_string(eksperimentai[i]) + ".txt", eksperimentai[i], rusiuoti_pagal);
                 nuskaitymo_laikai.push_back(laikai.nuskaitymo_laikas);
                 rikiavimo_laikai.push_back(laikai.rikiavimo_laikas);
                 padalijimo_laikai.push_back(laikai.padalijimo_laikas);
